@@ -37,7 +37,7 @@
 // (9) here you define the longitude, latitude, and zoom level of the user map when they load the page, then follow with the tile layer you want (here it is mapbox)
 
 
-	var mymap = L.map('mapid').setView([40.81373, -96.70393], 10);
+	var mymap = L.map('mapid').setView([40.81373, -96.70393], 16);
 	L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/watercolor/{z}/{x}/{y}.{ext}', {
 		attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
 		subdomains: 'abcd',
@@ -50,7 +50,7 @@
 //(11) this is how you define individual features on the map - a marker, a cirlce, a polygon. You could also call up a variable and point it to a hosted GIS file to load it in.
 //(12) note that each popup has preloaded text here. You could also have a variable that points attributes in a dataset to populate a popup; we will do this in the future
 	L.marker([40.81373, -96.70393]).addTo(mymap)
-		.bindPopup("<b>My Home!</b>").openPopup();
+		.bindPopup("<b>My Home!</b>");
 
 	L.circle([40.82063, -96.70564], 200, {
 		color: 'green',
@@ -86,7 +86,7 @@
 
 //(16) you can also comment out mapped items if you do not want them to draw. note that the var reference above is still present but below i have turned off a layer
 L.geoJSON(LoveLibrary,{}).addTo(mymap)
-.addTo(mymap).bindPopup("This is Love Library.");
+
 	
 	
 

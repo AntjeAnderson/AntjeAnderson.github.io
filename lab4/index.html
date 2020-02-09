@@ -45,7 +45,7 @@
           }).addTo(map);
 
           //change the file name to yours
-            $.getJSON("https://AntjeAnderson.github.io/lab4/coronavirus_map.geojson")  // The getJSON() method is used to get JSON data
+            $.getJSON("https://antjeanderson.github.io/lab4/coronavirus_map.geojson")// The getJSON() method is used to get JSON data
             .done(function(data) {
                 var info = processData(data);
                 createPropSymbols(info.timestamps, data);

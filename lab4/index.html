@@ -156,13 +156,13 @@ function createSliderUI(timestamps) {
     return slider;
   }
   sliderControl.addTo(map);
-  createTimeLabel("1950"); //The starting timestamp label
+  createTimeLabel("February 1"); //The starting timestamp label
   }
 
 
   // Add labels to the time slider when the map first loaded
   function createTimeLabel(startTimestamp) {
-    var temporalLegend = L.control({position: 'bottomleft' }); // same position as the slider
+    var temporalLegend = L.control({position: 'topright' }); // same position as the slider
                        // One more use of L.control !!
     temporalLegend.onAdd = function(map) {
       var output = L.DomUtil.create("output", "temporal-legend");

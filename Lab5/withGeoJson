@@ -43,9 +43,10 @@
 	maxZoom: 18,
 	ext: 'png'
 });
-
+// This does not seem to be working 
 var provinces = L.geoJson(data).addTo(map);
 
+// None of the following seems to be working, either. 
 var basemaps = {
     "Light Canvas": canvas,
     "Satellite Imagery": imagery

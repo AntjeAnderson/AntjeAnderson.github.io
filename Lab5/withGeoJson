@@ -46,6 +46,15 @@
 
 var provinces = L.geoJson(data).addTo(map);
 
+var basemaps = {
+    "Light Canvas": canvas,
+    "Satellite Imagery": imagery
+};
+
+var overlaymaps = {
+    "China Provinces ": provinces
+};
+
 	    </script>
    </body>
 </html>

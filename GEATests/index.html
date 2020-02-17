@@ -13,6 +13,14 @@
 
         <script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js"
         crossorigin=""></script>
+	    
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+        integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+        crossorigin="anonymous"></script>
 
  </head>
 
@@ -35,6 +43,8 @@
 }).addTo(map);
 // This map is from the Leaflet site that has public domain maps. I have included the address and some additional instructions in the e-mail I sent you. 
 
+		  $.getJSON("https://antjeanderson.github.io/GEATests/Eliot_1860.geojson")
+		// The getJSON() method is used to get JSON data
 
 	    </script>
    </body>

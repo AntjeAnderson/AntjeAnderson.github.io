@@ -4,6 +4,7 @@ var  = trip
    "features": [
   {
     "type": "Feature",
+    "properties": {},
     "geometry": {
        "type": "LineString",
        "coordinates":  [
@@ -30,7 +31,7 @@ var  = trip
          [ 7.44744,46.94797 ],
          [ 6.14315,46.20439 ],
          [ 2.35222,48.85661 ],
-         [ -0.12775,51.50735 ],
+         [ -0.12775,51.50735 ]
        ]
      }
     }

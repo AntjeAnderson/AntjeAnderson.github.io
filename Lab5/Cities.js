@@ -1,4 +1,4 @@
-var = cities 
+var cities =
 {
    "type": "FeatureCollection",
    "features": [

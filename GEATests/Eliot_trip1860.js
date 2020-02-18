@@ -1,4 +1,4 @@
-var  = trip
+var trip =
 {
    "type": "FeatureCollection",
    "features": [
@@ -36,4 +36,4 @@ var  = trip
      }
     }
 ]
-}
+};

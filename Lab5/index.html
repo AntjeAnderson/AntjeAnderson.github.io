@@ -45,8 +45,20 @@
 }).addTo(map);
 		
 var provinces = L.geoJson(data).addTo(map);
+// This does not seem to be working 
 
 
+// None of the following seems to be working, either. 
+var basemaps = {
+    "Light Canvas": canvas,
+    "Satellite Imagery": imagery
+};
+
+var overlaymaps = {
+    "China Provinces ": provinces
+};
+
+L.control.layers(basemaps, overlaymaps).addTo(map);
 	    </script>
    </body>
 </html>

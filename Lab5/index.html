@@ -53,14 +53,15 @@ var provinces = L.geoJson(data).addTo(map)
 var cities = L.geoJson(cities, {
 	pointToLayer: function(feature, latlng) {
                       return L.circleMarker(latlng, { // we use circle marker for the points
-                          fillColor: "#db2323",  // fill color of the circles
+                          radius: 8
+			  fillColor: "#db2323",  // fill color of the circles
                           color: '#ec2323',      // border color of the circles
                           weight: 1,             // circle line weight in pixels
                           fillOpacity: 0.5       // fill opacity (0-1)
                       }).on({
                          mouseover: function(e) {
                             this.openPopup();
-                            this.setStyle({fillColor: '#509153'});  // fill color turns green when mouseover
+                            this.setStyle({fillColor: '#c7e823'});  // fill color turns green when mouseover
                         },
                         mouseout: function(e) {
                             this.closePopup();

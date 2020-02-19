@@ -71,13 +71,13 @@ var cities = L.geoJson(cities, {
               }).addTo(map);
 		
 var basemaps = {
-	     "Light Canvas": canvas, 
+	     "Basic World Map": canvas, 
 	     "Satellite Imagery": imagery
 };
 					   
 var overlaymaps = {
-    "China Provinces ": provinces,
-    "China Cities": cities		     
+    "Province Boundaries ": provinces,
+    "Province Centers": cities		     
 };
 		      
 L.control.layers(basemaps, overlaymaps).addTo(map);      

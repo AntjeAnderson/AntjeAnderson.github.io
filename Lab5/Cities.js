@@ -9,7 +9,7 @@ var cities =
        "coordinates":  [ 112.3,31.2 ]
     },
     "properties": {
-    "id":1,
+    "id":Day1,
     "city_name":"Hubei",
     "1":7153,
     "2":9074,
@@ -28,7 +28,7 @@ var cities =
        "coordinates":  [ 120.5,29.2 ]
     },
     "properties": {
-    "id":2,
+    "id":Day2,
     "city_name":"Zhejiang",
     "1":599,
     "2":661,
@@ -47,7 +47,7 @@ var cities =
        "coordinates":  [ 113.5,23.4 ]
     },
     "properties": {
-    "id":3,
+    "id":Day3,
     "city_name":"Guangdong",
     "1":520,
     "2":604,
@@ -66,7 +66,7 @@ var cities =
        "coordinates":  [ 113.5,33.9 ]
     },
     "properties": {
-    "id":4,
+    "id":Day4,
     "city_name":"Henan",
     "1":422,
     "2":493,
@@ -85,7 +85,7 @@ var cities =
        "coordinates":  [ 112.98983,28.11265 ]
     },
     "properties": {
-    "id":5,
+    "id":Day5,
     "city_name":"Hunan",
     "1":389,
     "2":463,
@@ -104,7 +104,7 @@ var cities =
        "coordinates":  [ 117,31.83333 ]
     },
     "properties": {
-    "id":6,
+    "id":Day6,
     "city_name":"Anhui",
     "1":297,
     "2":340,
@@ -123,7 +123,7 @@ var cities =
        "coordinates":  [ 112.46361,34.68694 ]
     },
     "properties": {
-    "id":7,
+    "id":Day7,
     "city_name":"Jiangxi",
     "1":286,
     "2":333,
@@ -142,7 +142,7 @@ var cities =
        "coordinates":  [ 106.56667,29.55833 ]
     },
     "properties": {
-    "id":8,
+    "id":Day8,
     "city_name":"Chongqing",
     "1":238,
     "2":262,
@@ -161,7 +161,7 @@ var cities =
        "coordinates":  [ 119.8,32.9 ]
     },
     "properties": {
-    "id":9,
+    "id":Day9,
     "city_name":"Jiangsu",
     "1":207,
     "2":236,
@@ -180,7 +180,7 @@ var cities =
        "coordinates":  [ 102.93333,30.13333 ]
     },
     "properties": {
-    "id":10,
+    "id":Day10,
     "city_name":"Sichuan",
     "1":202,
     "2":231,
@@ -650,3 +650,4 @@ var cities =
   }
 ]
 };
+© 2020 GitHub, Inc.

@@ -37,3 +37,4 @@ var trip =
     }
 ]
 };
+// template for other trips -- replace coordinates

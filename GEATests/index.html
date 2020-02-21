@@ -22,6 +22,7 @@
 
     <body>
          <h3>George Eliot's Trips to Italy, 1860-1869</h3>
+	 
 	 <div id="map"></div>
 	   
         
@@ -32,18 +33,41 @@
               zoom: 6
           });
 
-      L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/toner-lite/{z}/{x}/{y}{r}.{ext}', {
+	var imagery = L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}{r}.{ext}', {
+	attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+	subdomains: 'abcd',
+	minZoom: 0,
+	maxZoom: 18,
+	ext: 'png'
+});
+
+    	var canvas = L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/toner-lite/{z}/{x}/{y}{r}.{ext}', {
 	attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
 	subdomains: 'abcd',
 	minZoom: 0,
 	maxZoom: 20,
 	ext: 'png'
 }).addTo(map);
-// This map is from the Leaflet site that has public domain maps. I have included the address and some additional instructions in the e-mail I sent you. 
 
-	var tripcities = L.geoJson(data).addTo(map);	
+// These maps are from the Leaflet site that has public domain maps, https://leaflet-extras.github.io/leaflet-providers/preview/
+// Please feel free to substitute the L.tilelayer with the ESRI maps. I will figure out from my instructor whether that is an 
+// issue even though there is no API. 
+
+	var tripcities1860 = L.geoJson(data).addTo(map);	
 	
-	var trip = L.geoJson(trip).addTo(map);
+	var trip1860 = L.geoJson(trip).addTo(map);
+
+// Here is where you could add additional layers based on additional .js files for the various trips. 
+// Just make sure that the variables you define when you make additional trip and city files have the dates (1861 etc.) 
+// so we know what we are doing. We can then also add them into the control layers (the "legend" top right). 
+// I just need to think about the way we should organize the dataframe a bit more because of the pop-ups. 
+		
+	var basemaps = {
+	     "Basic World Map": canvas,
+	     "Satellite Imagery": imagery
+};
+		
+L.control.layers(basemaps, {collapsed:false}).addTo(map);   
 
 	    </script>
    </body>

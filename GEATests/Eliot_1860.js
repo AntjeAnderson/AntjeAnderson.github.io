@@ -18,18 +18,6 @@ var data =
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 14.26811,40.85179 ]
-    },
-    "properties": {
-    "stop_no":1,
-    "name":"Naples ",
-    "year":1860
-    }
-  },
-  {
-    "type": "Feature",
-    "geometry": {
-       "type": "Point",
        "coordinates":  [ 2.35222,48.85661 ]
     },
     "properties": {
@@ -126,10 +114,22 @@ var data =
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 11.25581,43.76956 ]
+       "coordinates":  [ 14.26811,40.85179 ]
     },
     "properties": {
     "stop_no":10,
+    "name":"Naples ",
+    "year":1860
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 11.25581,43.76956 ]
+    },
+    "properties": {
+    "stop_no":11,
     "name":"Florence",
     "year":1860
     }
@@ -141,7 +141,7 @@ var data =
        "coordinates":  [ 11.34261,44.49488 ]
     },
     "properties": {
-    "stop_no":11,
+    "stop_no":12,
     "name":"Bologna",
     "year":1860
     }
@@ -153,7 +153,7 @@ var data =
        "coordinates":  [ 11.61978,44.83812 ]
     },
     "properties": {
-    "stop_no":12,
+    "stop_no":13,
     "name":"Ferrara",
     "year":1860
     }
@@ -165,7 +165,7 @@ var data =
        "coordinates":  [ 11.87676,45.40643 ]
     },
     "properties": {
-    "stop_no":13,
+    "stop_no":14,
     "name":"Padua ",
     "year":1860
     }
@@ -177,7 +177,7 @@ var data =
        "coordinates":  [ 12.31551,45.44084 ]
     },
     "properties": {
-    "stop_no":14,
+    "stop_no":15,
     "name":"Venice",
     "year":1860
     }
@@ -189,7 +189,7 @@ var data =
        "coordinates":  [ 8.72553,45.63006 ]
     },
     "properties": {
-    "stop_no":15,
+    "stop_no":16,
     "name":"Milan",
     "year":1860
     }
@@ -201,7 +201,7 @@ var data =
        "coordinates":  [ 9.25716,46.01604 ]
     },
     "properties": {
-    "stop_no":16,
+    "stop_no":17,
     "name":"Lake Como",
     "year":1860
     }
@@ -213,7 +213,7 @@ var data =
        "coordinates":  [ 9.25884,45.97824 ]
     },
     "properties": {
-    "stop_no":17,
+    "stop_no":18,
     "name":"Bellagio",
     "year":1860
     }
@@ -225,7 +225,7 @@ var data =
        "coordinates":  [ 9.4012,46.32717 ]
     },
     "properties": {
-    "stop_no":18,
+    "stop_no":19,
     "name":"Chiavenna ",
     "year":1860
     }
@@ -237,7 +237,7 @@ var data =
        "coordinates":  [ 8.54169,47.37688 ]
     },
     "properties": {
-    "stop_no":19,
+    "stop_no":20,
     "name":"Zurich",
     "year":1860
     }
@@ -249,7 +249,7 @@ var data =
        "coordinates":  [ 7.44744,46.94797 ]
     },
     "properties": {
-    "stop_no":20,
+    "stop_no":21,
     "name":"Bern",
     "year":1860
     }
@@ -261,7 +261,7 @@ var data =
        "coordinates":  [ 6.14315,46.20439 ]
     },
     "properties": {
-    "stop_no":21,
+    "stop_no":22,
     "name":"Geneva",
     "year":1860
     }
@@ -273,7 +273,7 @@ var data =
        "coordinates":  [ 2.35222,48.85661 ]
     },
     "properties": {
-    "stop_no":22,
+    "stop_no":23,
     "name":"Paris",
     "year":1860
     }
@@ -285,7 +285,7 @@ var data =
        "coordinates":  [ -0.12775,51.50735 ]
     },
     "properties": {
-    "stop_no":23,
+    "stop_no":24,
     "name":"London",
     "year":1860
     }

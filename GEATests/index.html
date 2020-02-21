@@ -66,8 +66,13 @@
 	     "Basic World Map": canvas,
 	     "Satellite Imagery": imagery
 };
-		
-L.control.layers(basemaps, {collapsed:false}).addTo(map);   
+
+		var overlaymaps = {
+    "Visited Cities 1860": tripcities1860,
+    "Itinerary 1860": trip1860
+};
+
+L.control.layers(basemaps, overlaymaps {collapsed:false}).addTo(map);   
 
 	    </script>
    </body>

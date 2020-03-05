@@ -17,7 +17,12 @@
 	<script src="https://AntjeAnderson.github.io/GEATests/Eliot_1860.js"></script>
 	    
 	<script src="https://AntjeAnderson.github.io/GEATests/Eliot_trip1860.js"></script>
-
+	    
+	<script src="https://AntjeAnderson.github.io/GEATests/Eliot_1861.js"></script>    
+	    
+	<script src="https://AntjeAnderson.github.io/GEATests/Eliot_1864.js"></script> 
+	    
+	<script src="https://AntjeAnderson.github.io/GEATests/Eliot_1869.js"></script> 
  </head>
 
     <body>
@@ -53,9 +58,23 @@
 // Please feel free to substitute the L.tilelayer with the ESRI maps. I will figure out from my instructor whether that is an 
 // issue even though there is no API. 
 
+	var = trip1860style = {
+		"color": '#FFF000',
+		"weight": 5,
+		"opacity": 0.8
+	};
 	var tripcities1860 = L.geoJson(data).addTo(map);	
 	
-	var trip1860 = L.geoJson(trip).addTo(map);
+	var trip1860 = L.geoJson(trip, {
+		style: trip1860style
+	}).addTo(map);
+		
+	var tripcities1861 = L.geoJson(eliot_1861).addTo(map);
+	
+	var tripcities1864 = L.geoJson(eliot_1864).addTo(map);
+	
+	var tripcities1869 = L.geoJson(eliot_1869).addTo(map);
+		
 
 // Here is where you could add additional layers based on additional .js files for the various trips. 
 // Just make sure that the variables you define when you make additional trip and city files have the dates (1861 etc.) 

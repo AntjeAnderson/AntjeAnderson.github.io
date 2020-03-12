@@ -59,23 +59,51 @@
 // issue even though there is no API. 
 
 	var trip1860style = {
-		"color": '#FFF000',
+		"color": '#FF0000',
 		"weight": 5,
 		"opacity": 0.8
 	};
 		
-	var yellowCircleMarkers = {
+	var trip1860CircleMarkers = {
 		radius: 5,
-		fillColor: "FFF000",
-		color: "FFF000",
+		fillColor: "#FF80800",
+		color: "#FF0000",
 		weight: 1,
 		opacity: 0.8,
 		fillOpacity: 0.5,
 	};
-	//testing whether this is right? I don't think I quite understand where the add to map gets added?
+		
+	var trip1861CircleMarkers = {
+		radius: 5,
+		fillColor: "#668cff",
+		color: "#0033cc",
+		weight: 1,
+		opacity: 0.8,
+		fillOpacity: 0.5,
+	};
+		
+	var trip1864CircleMarkers = {
+		radius: 5,
+		fillColor: "#00e64d",
+		color: "#009933",
+		weight: 1,
+		opacity: 0.8,
+		fillOpacity: 0.5,
+	};
+	
+	var trip1869CircleMarkers = {
+		radius: 5,
+		fillColor: "#9900ff",
+		color: "#c266ff",
+		weight: 1,
+		opacity: 0.8,
+		fillOpacity: 0.5,
+	};
+	
+		//testing whether this is right? I don't think I quite understand where the add to map gets added?
 	var tripcities1860 = L.geoJson(data, {
 		pointToLayer: function(feature, latlng) {
-		return L.circleMarker(latlng, yellowCircleMarkers);
+		return L.circleMarker(latlng, trip1860CircleMarkers);
 		}})
 	.addTo(map);	
 	
@@ -83,11 +111,20 @@
 		style: trip1860style
 	}).addTo(map);
 		
-	var tripcities1861 = L.geoJson(eliot_1861).addTo(map);
+	var tripcities1861 = L.geoJson(eliot_1861, {
+		pointToLayer: function(feature, latlng) {
+		return L.circleMarker(latlng, trip1861CircleMarkers);
+	}})).addTo(map);
 	
-	var tripcities1864 = L.geoJson(eliot_1864).addTo(map);
+	var tripcities1864 = L.geoJson(eliot_1864, {
+		pointToLayer: function(feature, latlng) {
+		return L.circleMarker(latlng, trip1864CircleMarkers);
+	}})).addTo(map);
 	
-	var tripcities1869 = L.geoJson(eliot_1869).addTo(map);
+	var tripcities1869 = L.geoJson(eliot_1869, {
+		pointToLayer: function(feature, latlng) {
+		return L.circleMarker(latlng, trip1860CircleMarkers);
+	}})).addTo(map);
 	
 		
 

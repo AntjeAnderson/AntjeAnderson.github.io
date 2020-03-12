@@ -104,27 +104,27 @@
 	var tripcities1860 = L.geoJson(data, {
 		pointToLayer: function(feature, latlng) {
 		return L.circleMarker(latlng, trip1860CircleMarkers);
-		}})
-	.addTo(map);	
+	}}).addTo(map);	
 	
 	var trip1860 = L.geoJson(trip, {
 		style: trip1860style
-	}).addTo(map);
+	})
+	.addTo(map);
 		
 	var tripcities1861 = L.geoJson(eliot_1861, {
 		pointToLayer: function(feature, latlng) {
 		return L.circleMarker(latlng, trip1861CircleMarkers);
-	}})).addTo(map);
+	}}).addTo(map);
 	
 	var tripcities1864 = L.geoJson(eliot_1864, {
 		pointToLayer: function(feature, latlng) {
 		return L.circleMarker(latlng, trip1864CircleMarkers);
-	}})).addTo(map);
+	}}).addTo(map);
 	
 	var tripcities1869 = L.geoJson(eliot_1869, {
 		pointToLayer: function(feature, latlng) {
-		return L.circleMarker(latlng, trip1860CircleMarkers);
-	}})).addTo(map);
+		return L.circleMarker(latlng, trip1869CircleMarkers);
+	}}).addTo(map);
 	
 		
 

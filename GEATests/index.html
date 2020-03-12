@@ -74,7 +74,6 @@
 	};
 	//testing whether this is right? I don't think I quite understand where the add to map gets added?
 	var tripcities1860 = L.geoJson(data, {
-		onEachFeature: onEachfeature,
 		pointToLayer: function(feature, latlng) {
 		return L.circleMarker(latlng, yellowCircleMarkers);
 		}})

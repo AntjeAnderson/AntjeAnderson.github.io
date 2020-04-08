@@ -46,41 +46,7 @@ function(WebScene, SceneView, FeatureLayer, SceneLayer, Query) {
     }
   });
 
-// define and add vegetationLayer
-  var vegetationLayer = new FeatureLayer({
-    url:
-"https://maps.facilities.uiowa.edu/arcgis/rest/services/Features/Trees/MapServer/1",
-    elevationInfo: {
-      mode: "on-the-ground"
-    },
-    renderer: {
-      type: "unique-value", // autocasts as new UniqueValueRenderer()
-      field: "Scientific",
-      defaultSymbol: {
-        type: "web-style,=", // autocasts as new WebStyleSymbol()
-        name: "Unknown",
-        styleName: "EsriRealisticTreeStyle"
-      },
-      uniqueValueInfos: uniqueValueInfos,
-      visualVariables:[
-        {
-          type: "size",
-          field: "Height",
-          axis: "height" // take the real height of the plant from the SIZE field
-        },
-        {
-          type: "rotation",
-          valueExpression: "random()*360"
-    // we use a random rotation, so that plants look different
-        }
-      ]
-    }
-  });
-    map.add(
-      vegetationLayer
-    );
-});
-var uniqueValueInfos = [
+  var uniqueValueInfos = [
         {
           value: "Crataegus sp.",
           symbol: {
@@ -146,6 +112,41 @@ var uniqueValueInfos = [
           },
         }
       ];
+
+// define and add vegetationLayer
+  var vegetationLayer = new FeatureLayer({
+    url:
+"https://maps.facilities.uiowa.edu/arcgis/rest/services/Features/Trees/MapServer/1",
+    elevationInfo: {
+      mode: "on-the-ground"
+    },
+    renderer: {
+      type: "unique-value", // autocasts as new UniqueValueRenderer()
+      field: "Scientific",
+      defaultSymbol: {
+        type: "web-style,=", // autocasts as new WebStyleSymbol()
+        name: "Unknown",
+        styleName: "EsriRealisticTreeStyle"
+      },
+      uniqueValueInfos: uniqueValueInfos,
+      visualVariables:[
+        {
+          type: "size",
+          field: "Height",
+          axis: "height" // take the real height of the plant from the SIZE field
+        },
+        {
+          type: "rotation",
+          valueExpression: "random()*360"
+    // we use a random rotation, so that plants look different
+        }
+      ]
+    }
+  });
+    map.add(
+      vegetationLayer
+    );
+});
 
     </script>
   </head>

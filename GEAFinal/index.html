@@ -1,1 +1,290 @@
-<DocType html>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lab 5</title>
+
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
+        crossorigin=""/>
+
+        <style type="text/css">
+  html, body { margin: 0; padding: 0; height: 100%; }
+  #map { min-height: 100%; }
+</style>
+
+        <script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js"
+        crossorigin=""></script>
+
+	<script src="https://AntjeAnderson.github.io/GEAFinal/Eliot_Cities1860.js"></script>
+
+	<script src="https://AntjeAnderson.github.io/GEAFinal/Eliot_Cities1861.js"></script>
+
+	<script src="https://AntjeAnderson.github.io/GEAFinal/Eliot_Cities1864.js"></script>
+
+  <script src="https://AntjeAnderson.github.io/GEAFinal/Eliot_Cities1869.js"></script>
+
+  <script src="https://AntjeAnderson.github.io/GEAFinal/Eliot_Trip1860.js"></script>
+
+  <script src="https://AntjeAnderson.github.io/GEAFinal/Eliot_Trip1861.js"></script>
+
+  <script src="https://AntjeAnderson.github.io/GEAFinal/Eliot_Trip1864.js"></script>
+
+  <script src="https://AntjeAnderson.github.io/GEAFinal/Eliot_Trip1869.js"></script>
+
+ </head>
+
+    <body>
+         <h2><p style="color:red">George Eliot's Trips to Italy, 1860-1869</p><h2><h5>Zoom in for more detail! In the legend, toggle trips on and off to see one or several trips. Click on the itinerary or the cities for more information. If Eliot visited a city multiple times, select the year for which you want the information.</h5>
+
+	 <div id="map"></div>
+
+
+	<script type="text/javascript">
+
+          var map = L.map('map', {
+              center: [43.76956, 11.25581],
+              zoom: 5
+          });
+
+	var imagery = L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}{r}.{ext}', {
+	attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+	subdomains: 'abcd',
+	minZoom: 0,
+	maxZoom: 18,
+	ext: 'png'
+});
+
+    	var canvas = L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/toner-lite/{z}/{x}/{y}{r}.{ext}', {
+	attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+	subdomains: 'abcd',
+	minZoom: 0,
+	maxZoom: 20,
+	ext: 'png'
+}).addTo(map);
+
+// The canvas / imagery maps are from the Leaflet site that has public domain maps, https://leaflet-extras.github.io/leaflet-providers/preview/
+// Can be substituted with other maps that do not have an API key.
+
+var onEachFeature1860 = function(feature, layer) {
+      if (feature.properties) {
+        var prop = feature.properties;
+        // make a cool little html popup that can include properties from the .js file
+          var popup = '<h4><p><strong>George Eliot&#39;s 1860 trip to Italy</strong> was the first extended visit there, a little more than 3 months, from March 24 to July 1. It was also&nbsp;Eliot&#39;s first extensive exploration of Italian art, which she recorded in her &quot;Recollections of Italy, 1860&quot;. See Chapter 10 of John Cross, <em>Life of George Eliot</em> at <a href="https://georgeeliotarchive.org/files/original/51db8460a5c3f7c96ac66c9cdf972b5d.pdf" target="_blank"> Vol.2 of <em>Life</em> the Cabinet Edition</a>, pp. 140-167.&nbsp;</p><p><i>Click on the individual cities for more information.</it></p></h4>';
+          // add known info about event to the description
+    //you can have a field called description in your json attributes - it will pull it in here on any layer you have an oneachfeature
+
+        // you must create a layer property on each feature or else
+        // the search results won't know where the item is on the map / layer
+        feature.layer = layer;
+        layer.bindPopup(popup, {maxWidth: "300"});
+      }
+    }; // end onEachFeature
+
+var onEachFeature1861 = function(feature, layer) {
+        if (feature.properties) {
+            var prop = feature.properties;
+              var popup = '<h4><p><strong><p>Eliot&#39;s 1861 trip to Italy (mid-April through mid-June) focused on Florence; it was a research trip for what was to become her novel <em>Romola</em>. She and Lewes stayed for over a month, with only brief stops in Genoa and Pisa and a few excursions from Florence.</p><p><i>Click on the individual cities for more information.</it></p></h4>';
+            feature.layer = layer;
+            layer.bindPopup(popup, {maxWidth: "300"});
+          }
+        };
+
+var onEachFeature1864 = function(feature, layer) {
+        if (feature.properties) {
+                var prop = feature.properties;
+                  var popup = '<h4>In 1864, Eliot and Lewes traveled to Italy again, this time with the painter Frederic Burton, for only about 6 weeks (May 4-Jun 20).They stayed entirely in Northern Italy, with an emphasis on Milan and Venice. Eliot&#39;s brief journal for this trip was published for the first time in <em>The Journals of George Eliot</em> by Margaret Harris and Judith Johnston (see pp. 373-379).<p><i>Click on the individual cities for more information.</it></p></h4>';
+                feature.layer = layer;
+                layer.bindPopup(popup, {maxWidth: "300"});
+              }
+            };
+
+var onEachFeature1869 = function(feature, layer) {
+          if (feature.properties) {
+                            var prop = feature.properties;
+                              var popup = '<h4>From early March to early May of 1869, Eliot and Lewes took what was to be their last extended trip to Italy together, although they traveled to France, Switzerland and Germany throughout the 1870s. They re-visited many sites from previous trips, including Florence and Rome, where they met John Cross for the first time on April 17, 1869. The only new location they explored was Ravenna. The 1869 journal of George Henry Lewes (available <a href="https://www-jstor-org.libproxy.unl.edu/stable/10.5325/georelioghlstud.67.2.0093" target="_blank">here</a> at J-Stor provides additional information.<p><i>Click on the individual cities for more information.</it></p></h4>';
+                            feature.layer = layer;
+                            layer.bindPopup(popup, {maxWidth: "300"});
+          }
+        };
+
+var onEachFeature1860Cities = function(feature, layer) {
+          if (feature.properties) {
+                var prop = feature.properties;
+                var popup = '<h3>'+prop['name']+' '+prop['year']+'</h3><strong>Relevant Date: </strong>'+ prop['date']+'<br>'+prop['Description'];
+                feature.layer = layer;
+                layer.bindPopup(popup, {maxWidth: "300"});
+          }
+        };
+
+  var onEachFeature1861Cities = function(feature, layer) {
+            if (feature.properties) {
+                  var prop = feature.properties;
+                  var popup = '<h3>'+prop['name']+' '+prop['year']+'</h3><strong>Relevant Date: </strong>'+ prop['date']+'<br>'+prop['Description'];
+                  feature.layer = layer;
+                  layer.bindPopup(popup, {maxWidth: "300"});
+                  }
+                };
+
+  var onEachFeature1864Cities = function(feature, layer) {
+              if (feature.properties) {
+                  var prop = feature.properties;
+                  var popup = '<h3>'+prop['name']+' '+prop['year']+'</h3><strong>Relevant Date: </strong>'+ prop['date']+'<br>'+prop['Description'];
+                  feature.layer = layer;
+                  layer.bindPopup(popup, {maxWidth: "300"});
+                  }
+                };
+
+  var onEachFeature1869Cities = function(feature, layer) {
+              if (feature.properties) {
+                  var prop = feature.properties;
+                  var popup = '<h3>'+prop['name']+' '+prop['year']+'</h3><strong>Relevant Date: </strong>'+ prop['date']+'<br>'+prop['Description'];
+                  feature.layer = layer;
+                  layer.bindPopup(popup, {maxWidth: "300"});
+                  }
+                };
+	var trip1860style = {
+		"color": '#e41a1c',
+		"weight": 4,
+		"opacity": 0.8
+	};
+
+  var trip1861style = {
+    "color": '#377eb8',
+    "weight": 4,
+    "opacity": 0.8
+  };
+
+  var trip1864style = {
+    "color": '#4daf4a',
+    "weight": 4,
+    "opacity": 0.8
+  };
+
+  var trip1869style = {
+    "color": '#984ea3',
+    "weight": 4,
+    "opacity": 0.8
+  };
+
+	var trip1860CircleMarkers = {
+		radius: 10,
+		fillColor: "#e41a1c",
+		color: "#e41a1c",
+		weight: 1,
+		opacity: 0.8,
+		fillOpacity: 0.3,
+	};
+
+	var trip1861CircleMarkers = {
+		radius: 10,
+		fillColor: "#377eb8",
+		color: "#377eb8",
+		weight: 1,
+		opacity: 0.8,
+		fillOpacity: 0.3,
+	};
+
+	var trip1864CircleMarkers = {
+		radius: 10,
+		fillColor: "#4daf4a",
+		color: "#4daf4a",
+		weight: 1,
+		opacity: 0.8,
+		fillOpacity: 0.3,
+	};
+
+	var trip1869CircleMarkers = {
+		radius: 10,
+		fillColor: "#984ea3",
+		color: "#984ea3",
+		weight: 1,
+		opacity: 0.8,
+		fillOpacity: 0.3,
+	};
+
+	var tripcities1860 = L.geoJson(Eliot_Cities1860, {
+    onEachFeature:onEachFeature1860Cities,
+		pointToLayer: function(feature, latlng) {
+		return L.circleMarker(latlng, trip1860CircleMarkers);
+	}}).addTo(map);
+
+//Used to be
+//	var trip1860 = L.geoJson(trip, {
+// --> add onEachFeature here!!!
+//		style: trip1860style
+//	})
+//	.addTo(map);
+
+var trip1860 = L.geoJson(Eliot_Trip1860, {
+  onEachFeature: onEachFeature1860,
+  style: trip1860style
+})
+.addTo(map);
+
+var tripcities1861 = L.geoJson(Eliot_Cities1861, {
+      onEachFeature: onEachFeature1861Cities,
+		pointToLayer: function(feature, latlng) {
+		return L.circleMarker(latlng, trip1861CircleMarkers);
+	}}).addTo(map);
+
+var trip1861 = L.geoJson(Eliot_Trip1861, {
+    onEachFeature: onEachFeature1861,
+    style: trip1861style
+  })
+  .addTo(map);
+
+	var tripcities1864 = L.geoJson(Eliot_Cities1864, {
+    onEachFeature: onEachFeature1864Cities,
+    pointToLayer: function(feature, latlng) {
+		return L.circleMarker(latlng, trip1864CircleMarkers);
+	}}).addTo(map);
+
+  var trip1864 = L.geoJson(Eliot_Trip1864, {
+    onEachFeature: onEachFeature1864,
+    style: trip1864style
+  })
+  .addTo(map);
+
+	var tripcities1869 = L.geoJson(Eliot_Cities1869, {
+    onEachFeature: onEachFeature1869Cities,
+    pointToLayer: function(feature, latlng) {
+		return L.circleMarker(latlng, trip1869CircleMarkers);
+	}}).addTo(map);
+
+  var trip1869 = L.geoJson(Eliot_Trip1869, {
+    onEachFeature: onEachFeature1869,
+    style: trip1869style
+  })
+  .addTo(map);
+
+// Here is where we could add additional layers based on additional .js files for the various trips to Germany etc.
+// Just need to make sure to keep the variables consistent you define when you make additional trip and city files have the dates (1861 etc.)
+
+
+// If I wanted a popup directly from the map, here is the template for that:
+//var popup = L.popup()
+  //  .setLatLng([43.76956, 11.25581])
+    //.setContent("George Eliot traveled to Florence 3 times:<br>in 1860, in 1861, and in 1869.<br>Zoom in for more information about her visits.")
+    //.openOn(map);
+
+	var basemaps = {
+	     "Basic World Map": canvas,
+	     "Satellite Imagery": imagery
+};
+
+	var overlaymaps = {
+    "Cities Visited 1860": tripcities1860,
+    "Itinerary 1860": trip1860,
+    "Cities Visited 1861": tripcities1861,
+    "Itinerary 1861": trip1861,
+    "Cities Visited 1864": tripcities1864,
+    "Itinerary 1864": trip1864,
+    "Cities Visited 1869": tripcities1869,
+    "Itinerary 1869": trip1869
+};
+
+L.control.layers(basemaps, overlaymaps, {collapsed:false}).addTo(map);
+
+	    </script>
+   </body>
+</html>
+

@@ -40,7 +40,7 @@ var Eliot_Cities1860 = {
     "name":"Mont Cenis",
     "year":1860,
     "date":"March 1860",
-    "Description":"The trip over Mont Cenis Pass, first by diligence (carriage) <br> and then by sledge into Italy was a common access route for travelers."
+    "Description":"The trip over Mont Cenis Pass, first by diligence (carriage) and then by sledge into Italy was a common access route for travelers."
     }
   },
   {
@@ -68,7 +68,7 @@ var Eliot_Cities1860 = {
     "name":"Turin",
     "year":1860,
     "date":"March 1860",
-    "Description":"Here, they saw signs of the Italian struggle for unification <br> (a major treaty had just been signed days before); <br> at the railway station, they caught a glimpse of Italy's future prime Minister, Count Cavour."
+    "Description":"Here, they saw signs of the Italian struggle for unification (a major treaty had just been signed days before); at the railway station, they caught a glimpse of Italy's future prime Minister, Count Cavour."
     }
   },
   {
@@ -124,7 +124,7 @@ var Eliot_Cities1860 = {
     "name":"Rome ",
     "year":1860,
     "date":"04/01/1860",
-    "Description":"<p>Eliot and Lewes spent almost a month in Rome on this trip (April 1-29),<br> exploring its famous sites and art museums with a focus <br> on ancient Rome and on the Renaissance. In her &quot;Recollections of Italy&quot; <br> Eliot records that she initially disliked Rome, but she became increasingly <br> fascinated with its sights. Some of the early disappointment <br> with Rome was to be integrated into <em>Middlemarch</em>.</p>"
+    "Description":"<p>Eliot and Lewes spent almost a month in Rome on this trip (April 1-29), exploring its famous sites and art museums with a focus on ancient Rome and on the Renaissance. In her &quot;Recollections of Italy&quot; Eliot records that she initially disliked Rome, but she became increasingly fascinated with its sights. Some of the early disappointment with Rome was to be integrated into <em>Middlemarch</em>.</p>"
     }
   },
   {
@@ -208,7 +208,7 @@ var Eliot_Cities1860 = {
     "name":"Venice",
     "year":1860,
     "date":"06/04/1860",
-    "Description":"The week here was their last longer stay in Italy; <br> St. Mark and the paintings of Tintorett were the highlights."
+    "Description":"The week here was their last longer stay in Italy; St. Mark and the paintings of Tintorett were the highlights."
     }
   },
   {
@@ -236,7 +236,7 @@ var Eliot_Cities1860 = {
     "name":"Lake Como",
     "year":1860,
     "date":"June 1860",
-    "Description":"Their visits along the lakes in Northern Italy--Lake Como, <br> and then Bellagio, were common \"spa\" stops for tourists."
+    "Description":"Their visits along the lakes in Northern Italy--Lake Como, and then Bellagio, were common \"spa\" stops for tourists."
     }
   },
   {
@@ -264,7 +264,7 @@ var Eliot_Cities1860 = {
     "name":"Chiavenna ",
     "year":1860,
     "date":"June 1860",
-    "Description":"From here, their last Italian stop, GE and GHL took the Splügen Pass across the Alps to Switzerland."
+    "Description":"From here, their last Italian stop, Eliot and Lewes took the Splügen Pass across the Alps to Switzerland."
     }
   },
   {
@@ -334,7 +334,7 @@ var Eliot_Cities1860 = {
     "name":"London",
     "year":1860,
     "date":"07/01/1860",
-    "Description":"After over three months (all of April, May, and June), GE and GHL returned to London on July 1."
+    "Description":"After over three months (all of April, May, and June), Eliot and Lewes returned to London on July 1."
     }
   }
 ]

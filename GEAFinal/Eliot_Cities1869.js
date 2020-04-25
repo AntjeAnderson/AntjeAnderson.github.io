@@ -110,7 +110,7 @@ var Eliot_Cities1869 = {
     "name":"Genoa",
     "year":1869,
     "date":"1869-03-16",
-    "Description":"Lewes notes that Genoa was \"not interesting on a 3rd visit.\" <br> They visit several locations in the vicinity."
+    "Description":"Lewes noted that Genoa was \"not interesting on a 3rd visit.\" They visited several locations in the vicinity."
     }
   },
   {
@@ -152,7 +152,7 @@ var Eliot_Cities1869 = {
     "name":"Naples ",
     "year":1869,
     "date":"1869-03-26",
-    "Description":"A week-long visit including the main museums and sights. <br> From here, they also visited Pompeii on March 29 by railway."
+    "Description":"A week-long visit including the main museums and sights. From here, they also visited Pompeii on March 29 by railway."
     }
   },
   {
@@ -166,7 +166,7 @@ var Eliot_Cities1869 = {
     "name":"Rome",
     "year":1869,
     "date":"1869-04-04",
-    "Description":"During their 2 1/2 weeks, they visited old favorites in Rome, <br> including several visits to the Vatican and St. Peter's. <br> On April 18, they meet John Cross for the first time."
+    "Description":"During their 2 1/2 weeks, they visited old favorites in Rome, including several visits to the Vatican and St. Peter's. <br> On April 18, they meet John Cross for the first time."
     }
   },
   {
@@ -208,7 +208,7 @@ var Eliot_Cities1869 = {
     "name":"Florence",
     "year":1869,
     "date":"1869-04-23",
-    "Description":"For their second 5-day stay on this trip, they again stayed <br> with the Trollopes at the Villa Ricorboli on the outskirts of Florence. <br> They revisited many museums, and Eliot went to the new Museo di San Marco on April 24 and 26, <br> to see the frescoes by Fra Angelico that had been off limits <br> to her as a woman in 1860 and 1861. "
+    "Description":"For their second 5-day stay on this trip, they again stayed with the Trollopes at the Villa Ricorboli on the outskirts of Florence. <br> They revisited many museums, and Eliot went to the new Museo di San Marco on April 24 and 26, <br> to see the frescoes by Fra Angelico that had been off limits <br> to her as a woman in 1860 and 1861. "
     }
   },
   {
@@ -222,7 +222,7 @@ var Eliot_Cities1869 = {
     "name":"Ravenna",
     "year":1869,
     "date":"1869-04-27",
-    "Description":"They came her via Bologna, visiting for the first time; <br> Lewes notes how much he dislikes the early Christian mosaics. "
+    "Description":"They came her via Bologna, visiting for the first time; Lewes notes how much he dislikes the early Christian mosaics. "
     }
   },
   {
@@ -236,7 +236,7 @@ var Eliot_Cities1869 = {
     "name":"Verona",
     "year":1869,
     "date":"1869-04-29",
-    "Description":"They revisited the Arena and other sights, <br> and then departed for their return journey. "
+    "Description":"They revisited the Arena and other sights, and then departed for their return journey. "
     }
   },
   {
@@ -250,7 +250,7 @@ var Eliot_Cities1869 = {
     "name":"Brenner Pass",
     "year":1869,
     "date":"1869-04-30",
-    "Description":"Unusual for them, Eliot and Lewes took the Eastern route <br> out of Italy across the Brenner Pass into Germany (Bavaria). "
+    "Description":"Unusual for them, Eliot and Lewes took the Eastern route out of Italy across the Brenner Pass into Germany (Bavaria). "
     }
   },
   {

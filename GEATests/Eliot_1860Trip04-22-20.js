@@ -40,7 +40,7 @@ var Eliot_1860Trip = {
     "name":"Mont Cenis",
     "year":1860,
     "date":"March 1860",
-    "Description":"The trip over Mont Cenis Pass, first by diligence (carriage) and then by sledge into Italy was a common access route for travelers."
+    "Description":"The trip over Mont Cenis Pass, first by diligence (carriage) <br> and then by sledge into Italy was a common access route for travelers."
     }
   },
   {
@@ -68,7 +68,7 @@ var Eliot_1860Trip = {
     "name":"Turin",
     "year":1860,
     "date":"March 1860",
-    "Description":"Here, they saw signs of the Italian struggle for unification (a major treaty had just been signed days before); at the railway station, they caught a glimpse of Italy's future prime Minister, Count Cavour."
+    "Description":"Here, they saw signs of the Italian struggle for unification <br> (a major treaty had just been signed days before); at the railway station, they caught a glimpse of Italy's future prime Minister, Count Cavour."
     }
   },
   {
@@ -82,7 +82,7 @@ var Eliot_1860Trip = {
     "name":"Genoa",
     "year":1860,
     "date":"March 1860",
-    "Description":"GE had briefly visited this city in 1849--the only Italian city on her trip with the Brays. "
+    "Description":"GE had briefly visited Genoa in 1849; <br> the only Italian city on her trip with the Brays. "
     }
   },
   {
@@ -124,7 +124,7 @@ var Eliot_1860Trip = {
     "name":"Rome ",
     "year":1860,
     "date":"04/01/1860",
-    "Description":"<p>Eliot and Lewes spent almost a month in Rome on this trip (April 1-29), exploring its famous sites and art museums with a focus on ancient Rome and on the Renaissance. In her &quot;Recollections of Italy&quot; Eliot records that she initially disliked Rome, but she became increasingly fascinated with its sights. Some of the early disappointment with Rome was to be integrated into <em>Middlemarch</em>, as part of the famous description of Dorothea&#39;s disenchantment with the city on her honeymoon.</p>"
+    "Description":"<p>Eliot and Lewes spent almost a month in Rome on this trip <br> (until April 29) to explore its famous sites and art museums <br> with a focus on ancient Rome and on the Renaissance. In her &quot;Recollections of Italy&quot; Eliot records that she initially disliked Rome, but she became increasingly fascinated with its sights. Some of the early disappointment with Rome was to be integrated into <em>Middlemarch</em>, as part of the famous description of Dorothea&#39;s disenchantment with the city on her honeymoon.</p>"
     }
   },
   {
@@ -152,7 +152,7 @@ var Eliot_1860Trip = {
     "name":"Florence",
     "year":1860,
     "date":"05/17/1860",
-    "Description":"<p>On their 1860 trip, Eliot and Lewes spent about two weeks in mid-May exploring the art and history of Florence, staying at the Pension Suisse in the Via Tornabuoni, with excursions to Fiesole, Siena, and other sites. On May 21, Eliot decided to write a historical novel set in Renaissance Florence in the 1490s--the novel that became <em>Romola</em> in 1863.</p><p><a href=\"http://georgeeliotartworld.com/files/original/a5dc6f4f55f0486b72bccda95e1926d8.jpg\" target=\"_blank\"><img alt=\"\" src=\"http://georgeeliotartworld.com/files/original/a5dc6f4f55f0486b72bccda95e1926d8.jpg\" style=\"width: 100%; height: 100%;\" /></a></p><p><strong>Zoom in on Florence for further information on some of the most important sites that Eliot visited and commented on in her &quot;Recollections of Italy. 1860.&quot;</p>"
+    "Description":"<p>Eliot and Lewes spent about two weeks <br> in mid-May exploring the art and history of Florence, staying at the Pension Suisse in the Via Tornabuoni, with excursions to Fiesole, Siena, and other sites. On May 21, Eliot decided to write a historical novel set in Renaissance Florence in the 1490s--the novel that became <em>Romola</em> in 1863.</p><p><a href=\"http://georgeeliotartworld.com/files/original/a5dc6f4f55f0486b72bccda95e1926d8.jpg\" target=\"_blank\"><img alt=\"\" src=\"http://georgeeliotartworld.com/files/original/a5dc6f4f55f0486b72bccda95e1926d8.jpg\" style=\"width: 100%; height: 100%;\" /></a></p><p><strong>Zoom in on Florence for further information on some of the most important sites that Eliot visited and commented on in her &quot;Recollections of Italy. 1860.&quot;</p>"
     }
   },
   {
@@ -194,7 +194,7 @@ var Eliot_1860Trip = {
     "name":"Padua ",
     "year":1860,
     "date":"[06/03/1860]",
-    "Description":"GE highlighted the famous Arena chapel, with Giotto's frescoes, during the short stay here."
+    "Description":"GE highlighted the famous Arena chapel with Giotto's frescoes <br> during the short stay here."
     }
   },
   {
@@ -208,7 +208,7 @@ var Eliot_1860Trip = {
     "name":"Venice",
     "year":1860,
     "date":"06/04/1860",
-    "Description":"The week here was their last longer stay in Italy; St. Mark and the paintings of Tintorett were the highlights. "
+    "Description":"The week here was their last longer stay in Italy; <br> St. Mark and the paintings of Tintorett were the highlights. "
     }
   },
   {
@@ -236,7 +236,7 @@ var Eliot_1860Trip = {
     "name":"Lake Como",
     "year":1860,
     "date":"June 1860",
-    "Description":"The stops along the lakes in Northern Italy--Lake Como, and then Bellagio, were common \"spa\" stops for visitors. "
+    "Description":"The stops along the lakes in Northern Italy--Lake Como, and then <br> Bellagio, were common spa stops for visitors. "
     }
   },
   {
@@ -264,7 +264,7 @@ var Eliot_1860Trip = {
     "name":"Chiavenna ",
     "year":1860,
     "date":"June 1860",
-    "Description":"From here, their last Italian stop, GE and GHL took the Splügen Pass across the Alps to Switzerland. "
+    "Description":"From here, their last Italian stop, Eliot and Lewes<br> took the Splügen Pass across the Alps to Switzerland. "
     }
   },
   {
@@ -278,7 +278,7 @@ var Eliot_1860Trip = {
     "name":"Zurich",
     "year":1860,
     "date":"June 1860",
-    "Description":"GE and GHL took 2 weeks to return home, with several stays in Switzerland and France, beginning here. "
+    "Description":"Eliot and Lewes took 2 weeks to return home, <br> with several stays in Switzerland and France, beginning here. "
     }
   },
   {
@@ -292,7 +292,7 @@ var Eliot_1860Trip = {
     "name":"Bern",
     "year":1860,
     "date":"June 1860",
-    "Description":"While in Bern, GHL visited Hofwyl, where his sons were at a Swiss boarding school. "
+    "Description":"Eliot stayed in Bern while Lewes visited his sons at their nearby boarding school, Hofwyl."
     }
   },
   {
@@ -334,7 +334,7 @@ var Eliot_1860Trip = {
     "name":"London",
     "year":1860,
     "date":"07/01/1860",
-    "Description":"After over three months (all of April, May, and June), GE and GHL returned to London on July 1. "
+    "Description":"After over three months abroad <br> Eliot and Lewes returned to London on this day."
     }
   }
 ]

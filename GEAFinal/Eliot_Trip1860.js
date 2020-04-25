@@ -1,4 +1,4 @@
-var  = Eliot_Trip1860
+var Eliot_Trip1860 =
 {
    "type": "FeatureCollection",
    "features": [

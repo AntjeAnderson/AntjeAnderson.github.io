@@ -82,7 +82,7 @@ var Eliot_Cities1864 = {
     "name":" Venice",
     "year":1864,
     "date":"1864-05-12",
-    "Description":"Eliot, Lewes and Burton spend over two weeks in Venice. <br> Visits to St. Mark's, the Ducal Palace, the Accademia and the Frari, and many churches.<br> Side trips to the surrounding areas, including Murano."
+    "Description":"Eliot, Lewes and Burton spend over two weeks in Venice. Visits to St. Mark's, the Ducal Palace, the Accademia and the Frari, and many churches. Side trips to the surrounding areas, including Murano."
     }
   },
   {

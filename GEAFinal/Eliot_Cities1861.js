@@ -138,7 +138,7 @@ var Eliot_Cities1861 = {
     "name":"Florence ",
     "year":1861,
     "date":"1861-05-04",
-    "Description":"The main destination during this trip, with a focus on library research and going to museums <br> in preparation to write <it>Romola</it>. In her journal, Eliot wondered: <br>\"thirty-four days of precious time spent there: will it all be in vain?\" <br> (<it>Journals </it> 89)"
+    "Description":"The main destination during this trip, with a focus on library research and going to museums to prepare for writing <it>Romola</it>. In her journal, Eliot wondered: \"thirty-four days of precious time spent there: will it all be in vain?\"(<it>Journals </it> 89)"
     }
   },
   {
@@ -166,7 +166,7 @@ var Eliot_Cities1861 = {
     "name":"Camaldoli monastery",
     "year":1861,
     "date":"1861-06-03",
-    "Description":"This visit was a part of a 5-day excursion from Florence with Thomas Trollope. <br> Eliot did not have access to the inside of the Monastery. "
+    "Description":"This visit was a part of a 5-day excursion from Florence with Thomas Trollope. Eliot did not have access to the inside of the Monastery. "
     }
   },
   {

@@ -12,7 +12,7 @@ var Eliot_Cities1864 = {
     "name":"London",
     "year":1864,
     "date":"1864-05-04",
-    "Description":"Eliot, Lewes, and Burton left from Charing Cross at 7:30 in the morning and were in Paris by nightfall."
+    "Description":"Eliot, Lewes, and Burton had left on May 4 from Charing Cross Station. "
     }
   },
   {
@@ -54,7 +54,7 @@ var Eliot_Cities1864 = {
     "name":"Turin",
     "year":1864,
     "date":"1864-05-08",
-    "Description":"Visit to the Picture Gallery and the opera."
+    "Description":"Visits to the Turin Picture Gallery and the opera."
     }
   },
   {
@@ -82,7 +82,7 @@ var Eliot_Cities1864 = {
     "name":" Venice",
     "year":1864,
     "date":"1864-05-12",
-    "Description":"Eliot, Lewes and Burton spend over two weeks in Venice. Visits to St. Mark's, the Ducal Palace, the Accademia and the Frari, and many churches. Side trips to the surrounding areas, including Murano."
+    "Description":"Eliot, Lewes and Burton spent over two weeks in Venice, including visits to St. Mark's, the Ducal Palace, the Accademia and the Frari, and many churches. Side trips to the surrounding areas, including Murano."
     }
   },
   {
@@ -96,7 +96,7 @@ var Eliot_Cities1864 = {
     "name":"Padua",
     "year":1864,
     "date":"1864-05-28",
-    "Description":"Eliot and Lewes visit Padua on their own, including the Emeritani Chapel and Arena chapels."
+    "Description":"Eliot and Lewes visited Padua on their own, including the Emeritani Chapel and Arena chapels."
     }
   },
   {
@@ -110,7 +110,7 @@ var Eliot_Cities1864 = {
     "name":"Verona",
     "year":1864,
     "date":"1864-05-31",
-    "Description":"Eliot and Lewes visit more churches and other sights."
+    "Description":"Eliot and Lewes visited a number of churches in Verona."
     }
   },
   {
@@ -138,7 +138,7 @@ var Eliot_Cities1864 = {
     "name":"Milan",
     "year":1864,
     "date":"1864-06-04",
-    "Description":"Here, Eliot and Lewes reunite with Burton. The Brera galleries are again the highlight."
+    "Description":"Here, Eliot and Lewes reunited with Burton. The Brera galleries were again a major highlight."
     }
   },
   {
@@ -222,7 +222,7 @@ var Eliot_Cities1864 = {
     "name":"Paris",
     "year":1864,
     "date":"1864-06-16",
-    "Description":""
+    "Description":"On the way to Paris six weeks before, they visited the Louvre and the opera. On the way back to England, they stopped here again."
     }
   },
   {
@@ -236,7 +236,7 @@ var Eliot_Cities1864 = {
     "name":"London",
     "year":1864,
     "date":"1864-06-20",
-    "Description":"Eliot writes to a friend: \"You can imagine that London does not look pretty after such a journey\" (<it>Letters</it> 4:154)."
+    "Description":"Eliot, Lewes, and Burton left on May 4 from Charing Cross Station. On their return 6 weeks later, Eliot wrote to a friend: \"You can imagine that London does not look pretty after such a journey\" (<it>Letters</it> 4:154)."
     }
   }
 ]

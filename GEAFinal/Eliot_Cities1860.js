@@ -26,7 +26,7 @@ var Eliot_Cities1860 = {
     "name":"Paris",
     "year":1860,
     "date":"03/24/1860",
-    "Description":"Visit to the Louvre Notre Dame and Ste. Chapelle."
+    "Description":"On their way to Italy, they visited the Louvre Notre Dame and Ste. Chapelle."
     }
   },
   {
@@ -320,7 +320,7 @@ var Eliot_Cities1860 = {
     "name":"Paris",
     "year":1860,
     "date":"June 1860",
-    "Description":""
+    "Description":"On their way to Italy, in late March, they visited the Louvre Notre Dame and Ste. Chapelle. They also returned home via Paris."
     }
   },
   {
@@ -334,7 +334,7 @@ var Eliot_Cities1860 = {
     "name":"London",
     "year":1860,
     "date":"07/01/1860",
-    "Description":"After over three months (all of April, May, and June), Eliot and Lewes returned to London on July 1."
+    "Description":"Eliot and Lewes had left London for their Italian trip at the end of March. After over three months (all of April, May, and June), Eliot and Lewes returned to London on July 1."
     }
   }
 ]

@@ -12,7 +12,7 @@ var Eliot_Cities1869 = {
     "name":"London",
     "year":1869,
     "date":"1869-03-03",
-    "Description":"Start in rough weather, but they get to Paris by 9 pm the same day."
+    "Description":""
     }
   },
   {
@@ -40,7 +40,7 @@ var Eliot_Cities1869 = {
     "name":"Lyon",
     "year":1869,
     "date":"1869-03-05",
-    "Description":"Visit to the Cathedral and the theater."
+    "Description":"Visit to the Lyon Cathedral and the theater."
     }
   },
   {
@@ -208,7 +208,7 @@ var Eliot_Cities1869 = {
     "name":"Florence",
     "year":1869,
     "date":"1869-04-23",
-    "Description":"For their second 5-day stay on this trip, they again stayed with the Trollopes at the Villa Ricorboli on the outskirts of Florence. <br> They revisited many museums, and Eliot went to the new Museo di San Marco on April 24 and 26, <br> to see the frescoes by Fra Angelico that had been off limits <br> to her as a woman in 1860 and 1861. "
+    "Description":"For their first 5-day stay in Florence in March with Thomas Trollope and family at the Villa Ricorboli on the outskirts of Florence, Eliot was ill and barely left the house. For their second 5 days they again stayed with the Trollopes and revisited many museums. Eliot went to the new Museo di San Marco on April 24 and 26 to see the frescoes by Fra Angelico that had been off limits to women on her earlier visits."
     }
   },
   {
@@ -222,7 +222,7 @@ var Eliot_Cities1869 = {
     "name":"Ravenna",
     "year":1869,
     "date":"1869-04-27",
-    "Description":"They came her via Bologna, visiting for the first time; Lewes notes how much he dislikes the early Christian mosaics. "
+    "Description":"They came here via Bologna, visiting for the first time; Lewes noted how much he dislikes the early Christian mosaics. "
     }
   },
   {
@@ -236,7 +236,7 @@ var Eliot_Cities1869 = {
     "name":"Verona",
     "year":1869,
     "date":"1869-04-29",
-    "Description":"They revisited the Arena and other sights, and then departed for their return journey. "
+    "Description":"They revisited the Arena Chapel and other sights, and then departed for their return journey. "
     }
   },
   {

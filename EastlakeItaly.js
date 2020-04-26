@@ -17,7 +17,8 @@ var Eastlake_Italy_Cities = [
    "YR1863": 0,
    "YR1864": 0,
    "YR1865": 0,
-   "VisitTotal": 2
+   "VisitTotal": 2,
+   "Notes":"1856 and 1857."
  },
  {
    "Location": "Assisi ",
@@ -37,7 +38,8 @@ var Eastlake_Italy_Cities = [
    "YR1863": 0,
    "YR1864": 0,
    "YR1865": 0,
-   "VisitTotal": 1
+   "VisitTotal": 1,
+   "Notes":"1856 only."
  },
  {
    "Location": "Bellagio",
@@ -57,7 +59,8 @@ var Eastlake_Italy_Cities = [
    "YR1863": 0,
    "YR1864": 1,
    "YR1865": 0,
-   "VisitTotal": 2
+   "VisitTotal": 2,
+   "Notes":"1862 and 1864."
  },
  {
    "Location": "Bergamo",
@@ -77,7 +80,8 @@ var Eastlake_Italy_Cities = [
    "YR1863": 0,
    "YR1864": 0,
    "YR1865": 0,
-   "VisitTotal": 2
+   "VisitTotal": 2,
+   "Notes":"1854 and 1857."
  },
  {
    "Location": "Bologna",
@@ -97,7 +101,8 @@ var Eastlake_Italy_Cities = [
    "YR1863": 0,
    "YR1864": 1,
    "YR1865": 0,
-   "VisitTotal": 7
+   "VisitTotal": 7,
+   "Notes":"1855, 1857, 1858, 1860, 1861, 1862, 1864."
  },
  {
    "Location": "Brescia",
@@ -117,8 +122,9 @@ var Eastlake_Italy_Cities = [
    "YR1863": 0,
    "YR1864": 0,
    "YR1865": 0,
-   "VisitTotal": 3
- },
+   "VisitTotal": 3,
+   "Notes":"1854, 1857, and 1862."
+  },
  {
    "Location": "Castiglione Fiorentino",
    "Lat": 11.91879,
@@ -137,7 +143,8 @@ var Eastlake_Italy_Cities = [
    "YR1863": 0,
    "YR1864": 0,
    "YR1865": 0,
-   "VisitTotal": 1
+   "VisitTotal": 1,
+   "Notes":"1856 only."
  },
  {
    "Location": "Cesena",
@@ -157,7 +164,8 @@ var Eastlake_Italy_Cities = [
    "YR1863": 0,
    "YR1864": 0,
    "YR1865": 0,
-   "VisitTotal": 1
+   "VisitTotal": 1,
+   "Notes":"1857 only."
  },
  {
    "Location": "Citta di Castello",
@@ -177,7 +185,8 @@ var Eastlake_Italy_Cities = [
    "YR1863": 0,
    "YR1864": 0,
    "YR1865": 0,
-   "VisitTotal": 1
+   "VisitTotal": 1,
+   "Notes":"1856 only."
  },
  {
    "Location": "Civitavecchia",
@@ -197,7 +206,8 @@ var Eastlake_Italy_Cities = [
    "YR1863": 0,
    "YR1864": 0,
    "YR1865": 0,
-   "VisitTotal": 1
+   "VisitTotal": 1,
+   "Notes":"1861 only."
  },
  {
    "Location": "Cortina d’Ampezzo",
@@ -217,7 +227,8 @@ var Eastlake_Italy_Cities = [
    "YR1863": 0,
    "YR1864": 0,
    "YR1865": 0,
-   "VisitTotal": 1
+   "VisitTotal": 1,
+   "Notes":"1860 only."
  },
  {
    "Location": "Cortona",
@@ -237,7 +248,8 @@ var Eastlake_Italy_Cities = [
    "YR1863": 0,
    "YR1864": 0,
    "YR1865": 0,
-   "VisitTotal": 1
+   "VisitTotal": 1,
+   "Notes":"1856 only."
  },
  {
    "Location": "Cremona",
@@ -257,7 +269,8 @@ var Eastlake_Italy_Cities = [
    "YR1863": 0,
    "YR1864": 0,
    "YR1865": 0,
-   "VisitTotal": 1
+   "VisitTotal": 1,
+   "Notes":"1860 only."
  },
  {
    "Location": "Faenza",
@@ -277,7 +290,8 @@ var Eastlake_Italy_Cities = [
    "YR1863": 1,
    "YR1864": 0,
    "YR1865": 0,
-   "VisitTotal": 4
+   "VisitTotal": 4,
+   "Notes":"1857, 1858, 1860, 1863."
  },
  {
    "Location": "Ferrara",
@@ -297,7 +311,8 @@ var Eastlake_Italy_Cities = [
    "YR1863": 0,
    "YR1864": 0,
    "YR1865": 0,
-   "VisitTotal": 6
+   "VisitTotal": 6,
+   "Notes":"1855, 1857, 1858, 1860, 1861, 1862."
  },
  {
    "Location": "Florence ",
@@ -317,7 +332,8 @@ var Eastlake_Italy_Cities = [
    "YR1863": 0,
    "YR1864": 1,
    "YR1865": 1,
-   "VisitTotal": 7
+   "VisitTotal": 7,
+   "Notes":"1855, 1856, 1857, 1858, 1862, 1864, and 1865 (after Sir Charles' death)."
  },
  {
    "Location": "Foligno",
@@ -337,7 +353,8 @@ var Eastlake_Italy_Cities = [
    "YR1863": 0,
    "YR1864": 0,
    "YR1865": 0,
-   "VisitTotal": 1
+   "VisitTotal": 1,
+   "Notes":"1856 only."
  },
  {
    "Location": "Forli",
@@ -357,7 +374,8 @@ var Eastlake_Italy_Cities = [
    "YR1863": 0,
    "YR1864": 0,
    "YR1865": 0,
-   "VisitTotal": 1
+   "VisitTotal": 1,
+   "Notes":"1857 only."
  },
  {
    "Location": "Genoa ",
@@ -377,7 +395,8 @@ var Eastlake_Italy_Cities = [
    "YR1863": 1,
    "YR1864": 0,
    "YR1865": 0,
-   "VisitTotal": 7
+   "VisitTotal": 7,
+   "Notes":"1856, 1857, 1858, 1859, 1861, 1862, 1863."
  },
  {
    "Location": "Lago Maggiore (Baveno) ",
@@ -397,7 +416,8 @@ var Eastlake_Italy_Cities = [
    "YR1863": 0,
    "YR1864": 1,
    "YR1865": 1,
-   "VisitTotal": 2
+   "VisitTotal": 2,
+   "Notes":"1864 and 1865."
  },
  {
    "Location": "Lake Como",
@@ -417,7 +437,8 @@ var Eastlake_Italy_Cities = [
    "YR1863": 0,
    "YR1864": 1,
    "YR1865": 0,
-   "VisitTotal": 2
+   "VisitTotal": 2,
+   "Notes":"1861 and 1864."
  },
  {
    "Location": "Lucca",
@@ -437,7 +458,8 @@ var Eastlake_Italy_Cities = [
    "YR1863": 0,
    "YR1864": 0,
    "YR1865": 0,
-   "VisitTotal": 1
+   "VisitTotal": 1,
+   "Notes":"1855 only."
  },
  {
    "Location": "Mantua",
@@ -457,7 +479,8 @@ var Eastlake_Italy_Cities = [
    "YR1863": 0,
    "YR1864": 0,
    "YR1865": 0,
-   "VisitTotal": 2
+   "VisitTotal": 2,
+   "Notes": "1854, 1857."
  },
  {
    "Location": "Milan",
@@ -477,7 +500,8 @@ var Eastlake_Italy_Cities = [
    "YR1863": 0,
    "YR1864": 1,
    "YR1865": 1,
-   "VisitTotal": 9
+   "VisitTotal": 9,
+   "Notes": "1854, 1857, 1858, 1859, 1860, 1861, 1862, 1864, and 1865. <br> This is the city the Eastlakes visited almost every time they went to Italy."
  },
  {
    "Location": "Modena",
@@ -497,7 +521,8 @@ var Eastlake_Italy_Cities = [
    "YR1863": 0,
    "YR1864": 0,
    "YR1865": 0,
-   "VisitTotal": 1
+   "VisitTotal": 1,
+   "Notes":"1861 only."
  },
  {
    "Location": "Naples ",
@@ -517,7 +542,8 @@ var Eastlake_Italy_Cities = [
    "YR1863": 0,
    "YR1864": 0,
    "YR1865": 0,
-   "VisitTotal": 2
+   "VisitTotal": 2,
+   "Notes":"1861 and 1862."
  },
  {
    "Location": "Narni",
@@ -537,7 +563,8 @@ var Eastlake_Italy_Cities = [
    "YR1863": 0,
    "YR1864": 0,
    "YR1865": 0,
-   "VisitTotal": 1
+   "VisitTotal": 1,
+   "Notes":"1856 only."
  },
  {
    "Location": "Orvieto",
@@ -557,7 +584,8 @@ var Eastlake_Italy_Cities = [
    "YR1863": 0,
    "YR1864": 0,
    "YR1865": 0,
-   "VisitTotal": 1
+   "VisitTotal": 1,
+   "Notes":"1861 only."
  },
  {
    "Location": "Padua ",
@@ -577,7 +605,8 @@ var Eastlake_Italy_Cities = [
    "YR1863": 0,
    "YR1864": 0,
    "YR1865": 0,
-   "VisitTotal": 3
+   "VisitTotal": 3,
+   "Notes":"1854, 1857, 1860."
  },
  {
    "Location": "Parma",
@@ -597,7 +626,8 @@ var Eastlake_Italy_Cities = [
    "YR1863": 0,
    "YR1864": 0,
    "YR1865": 0,
-   "VisitTotal": 1
+   "VisitTotal": 1,
+   "Notes":"1855 only."
  },
  {
    "Location": "Pavia",
@@ -617,7 +647,8 @@ var Eastlake_Italy_Cities = [
    "YR1863": 0,
    "YR1864": 0,
    "YR1865": 0,
-   "VisitTotal": 1
+   "VisitTotal": 1,
+   "Notes":"1855 only."
  },
  {
    "Location": "Perugia",
@@ -637,7 +668,8 @@ var Eastlake_Italy_Cities = [
    "YR1863": 0,
    "YR1864": 0,
    "YR1865": 0,
-   "VisitTotal": 1
+   "VisitTotal": 1,
+   "Notes":"1856 only."
  },
  {
    "Location": "Pesaro",
@@ -657,7 +689,8 @@ var Eastlake_Italy_Cities = [
    "YR1863": 0,
    "YR1864": 0,
    "YR1865": 0,
-   "VisitTotal": 1
+   "VisitTotal": 1,
+   "Notes":"1857 only."
  },
  {
    "Location": "Pisa",
@@ -677,7 +710,8 @@ var Eastlake_Italy_Cities = [
    "YR1863": 0,
    "YR1864": 0,
    "YR1865": 1,
-   "VisitTotal": 3
+   "VisitTotal": 3,
+   "Notes":"1855, 1856, 1865. Sir Charles died in Pisa in December 1865."
  },
  {
    "Location": "Pistoia",
@@ -697,7 +731,8 @@ var Eastlake_Italy_Cities = [
    "YR1863": 0,
    "YR1864": 0,
    "YR1865": 0,
-   "VisitTotal": 1
+   "VisitTotal": 1,
+   "Notes":"1856 only."
  },
  {
    "Location": "Prato ",
@@ -717,7 +752,8 @@ var Eastlake_Italy_Cities = [
    "YR1863": 0,
    "YR1864": 0,
    "YR1865": 0,
-   "VisitTotal": 1
+   "VisitTotal": 1,
+   "Notes":"1856 only."
  },
  {
    "Location": "Ravenna",
@@ -737,7 +773,8 @@ var Eastlake_Italy_Cities = [
    "YR1863": 0,
    "YR1864": 0,
    "YR1865": 0,
-   "VisitTotal": 1
+   "VisitTotal": 1,
+   "Notes":"1860 only."
  },
  {
    "Location": "Rimini",
@@ -757,7 +794,8 @@ var Eastlake_Italy_Cities = [
    "YR1863": 0,
    "YR1864": 0,
    "YR1865": 0,
-   "VisitTotal": 1
+   "VisitTotal": 1,
+   "Notes":"1857 only."
  },
  {
    "Location": "Rome ",
@@ -777,7 +815,8 @@ var Eastlake_Italy_Cities = [
    "YR1863": 0,
    "YR1864": 0,
    "YR1865": 0,
-   "VisitTotal": 3
+   "VisitTotal": 3,
+   "Notes":"1856, 1857, 1861."
  },
  {
    "Location": "Rovigo",
@@ -797,7 +836,8 @@ var Eastlake_Italy_Cities = [
    "YR1863": 0,
    "YR1864": 0,
    "YR1865": 0,
-   "VisitTotal": 2
+   "VisitTotal": 2,
+   "Notes":"1857, 1858."
  },
  {
    "Location": "Sansepolcro",
@@ -817,7 +857,8 @@ var Eastlake_Italy_Cities = [
    "YR1863": 0,
    "YR1864": 0,
    "YR1865": 0,
-   "VisitTotal": 1
+   "VisitTotal": 1,
+   "Notes":"1856 only."
  },
  {
    "Location": "Siena",
@@ -837,7 +878,8 @@ var Eastlake_Italy_Cities = [
    "YR1863": 0,
    "YR1864": 0,
    "YR1865": 0,
-   "VisitTotal": 3
+   "VisitTotal": 3,
+   "Notes":"1856, 1857, 1861."
  },
  {
    "Location": "Spello",
@@ -857,7 +899,8 @@ var Eastlake_Italy_Cities = [
    "YR1863": 0,
    "YR1864": 0,
    "YR1865": 0,
-   "VisitTotal": 1
+   "VisitTotal": 1,
+   "Notes":"1856 only."
  },
  {
    "Location": "Spoleto",
@@ -877,7 +920,8 @@ var Eastlake_Italy_Cities = [
    "YR1863": 0,
    "YR1864": 0,
    "YR1865": 0,
-   "VisitTotal": 1
+   "VisitTotal": 1,
+   "Notes":"1856 only."
  },
  {
    "Location": "Suza ",
@@ -897,7 +941,8 @@ var Eastlake_Italy_Cities = [
    "YR1863": 0,
    "YR1864": 0,
    "YR1865": 0,
-   "VisitTotal": 1
+   "VisitTotal": 1,
+   "Notes":"1858 only."
  },
  {
    "Location": "Trevi",
@@ -917,7 +962,8 @@ var Eastlake_Italy_Cities = [
    "YR1863": 0,
    "YR1864": 0,
    "YR1865": 0,
-   "VisitTotal": 1
+   "VisitTotal": 1,
+   "Notes": "1856 only."
  },
  {
    "Location": "Treviso",
@@ -937,7 +983,8 @@ var Eastlake_Italy_Cities = [
    "YR1863": 0,
    "YR1864": 0,
    "YR1865": 0,
-   "VisitTotal": 2
+   "VisitTotal": 2,
+   "Notes":"1852 and 1859."
  },
  {
    "Location": "Turin  ",
@@ -957,7 +1004,8 @@ var Eastlake_Italy_Cities = [
    "YR1863": 0,
    "YR1864": 0,
    "YR1865": 0,
-   "VisitTotal": 4
+   "VisitTotal": 4,
+   "Notes":"1857, 1858, 1860, 1861."
  },
  {
    "Location": "Venice ",
@@ -977,7 +1025,8 @@ var Eastlake_Italy_Cities = [
    "YR1863": 0,
    "YR1864": 1,
    "YR1865": 0,
-   "VisitTotal": 8
+   "VisitTotal": 8,
+   "Notes":"1852, 1854, 1857, 1858, 1859, 1860, 1862, 1864."
  },
  {
    "Location": "Verona",
@@ -997,7 +1046,8 @@ var Eastlake_Italy_Cities = [
    "YR1863": 0,
    "YR1864": 1,
    "YR1865": 0,
-   "VisitTotal": 5
+   "VisitTotal": 5,
+   "Notes":"1852, 1854, 1857, 1860, 1864."
  },
  {
    "Location": "Vicenza",
@@ -1017,7 +1067,8 @@ var Eastlake_Italy_Cities = [
    "YR1863": 0,
    "YR1864": 0,
    "YR1865": 0,
-   "VisitTotal": 1
+   "VisitTotal": 1,
+   "Notes":"1854."
  },
  {
    "Location": "Viterbo",
@@ -1037,7 +1088,8 @@ var Eastlake_Italy_Cities = [
    "YR1863": 0,
    "YR1864": 0,
    "YR1865": 0,
-   "VisitTotal": 1
+   "VisitTotal": 1,
+   "Notes":"1861."
  },
  {
    "Location": "Mont Cenis ",
@@ -1057,7 +1109,8 @@ var Eastlake_Italy_Cities = [
    "YR1863": 0,
    "YR1864": 0,
    "YR1865": 0,
-   "VisitTotal": 1
+   "VisitTotal": 1,
+   "Notes":"1858."
  },
  {
    "Location": "Simplon Pass",
@@ -1077,366 +1130,8 @@ var Eastlake_Italy_Cities = [
    "YR1863": 0,
    "YR1864": 1,
    "YR1865": 1,
-   "VisitTotal": 2
+   "VisitTotal": 2,
+   "Notes":"1864, 1865."
  },
- {
-   "Location": "",
-   "Lat": null,
-   "Long": null,
-   "CTRY": "",
-   "YR1852": null,
-   "YR1854": null,
-   "YR1855": null,
-   "YR1856": null,
-   "YR1857": null,
-   "YR1858": null,
-   "YR1859": null,
-   "YR1860": null,
-   "YR1861": null,
-   "YR1862": null,
-   "YR1863": null,
-   "YR1864": null,
-   "YR1865": null,
-   "VisitTotal": null
- },
- {
-   "Location": "",
-   "Lat": null,
-   "Long": null,
-   "CTRY": "",
-   "YR1852": null,
-   "YR1854": null,
-   "YR1855": null,
-   "YR1856": null,
-   "YR1857": null,
-   "YR1858": null,
-   "YR1859": null,
-   "YR1860": null,
-   "YR1861": null,
-   "YR1862": null,
-   "YR1863": null,
-   "YR1864": null,
-   "YR1865": null,
-   "VisitTotal": null
- },
- {
-   "Location": "",
-   "Lat": null,
-   "Long": null,
-   "CTRY": "",
-   "YR1852": null,
-   "YR1854": null,
-   "YR1855": null,
-   "YR1856": null,
-   "YR1857": null,
-   "YR1858": null,
-   "YR1859": null,
-   "YR1860": null,
-   "YR1861": null,
-   "YR1862": null,
-   "YR1863": null,
-   "YR1864": null,
-   "YR1865": null,
-   "VisitTotal": null
- },
- {
-   "Location": "",
-   "Lat": null,
-   "Long": null,
-   "CTRY": "",
-   "YR1852": null,
-   "YR1854": null,
-   "YR1855": null,
-   "YR1856": null,
-   "YR1857": null,
-   "YR1858": null,
-   "YR1859": null,
-   "YR1860": null,
-   "YR1861": null,
-   "YR1862": null,
-   "YR1863": null,
-   "YR1864": null,
-   "YR1865": null,
-   "VisitTotal": null
- },
- {
-   "Location": "",
-   "Lat": null,
-   "Long": null,
-   "CTRY": "",
-   "YR1852": null,
-   "YR1854": null,
-   "YR1855": null,
-   "YR1856": null,
-   "YR1857": null,
-   "YR1858": null,
-   "YR1859": null,
-   "YR1860": null,
-   "YR1861": null,
-   "YR1862": null,
-   "YR1863": null,
-   "YR1864": null,
-   "YR1865": null,
-   "VisitTotal": null
- },
- {
-   "Location": "",
-   "Lat": null,
-   "Long": null,
-   "CTRY": "",
-   "YR1852": null,
-   "YR1854": null,
-   "YR1855": null,
-   "YR1856": null,
-   "YR1857": null,
-   "YR1858": null,
-   "YR1859": null,
-   "YR1860": null,
-   "YR1861": null,
-   "YR1862": null,
-   "YR1863": null,
-   "YR1864": null,
-   "YR1865": null,
-   "VisitTotal": null
- },
- {
-   "Location": "",
-   "Lat": null,
-   "Long": null,
-   "CTRY": "",
-   "YR1852": null,
-   "YR1854": null,
-   "YR1855": null,
-   "YR1856": null,
-   "YR1857": null,
-   "YR1858": null,
-   "YR1859": null,
-   "YR1860": null,
-   "YR1861": null,
-   "YR1862": null,
-   "YR1863": null,
-   "YR1864": null,
-   "YR1865": null,
-   "VisitTotal": null
- },
- {
-   "Location": "",
-   "Lat": null,
-   "Long": null,
-   "CTRY": "",
-   "YR1852": null,
-   "YR1854": null,
-   "YR1855": null,
-   "YR1856": null,
-   "YR1857": null,
-   "YR1858": null,
-   "YR1859": null,
-   "YR1860": null,
-   "YR1861": null,
-   "YR1862": null,
-   "YR1863": null,
-   "YR1864": null,
-   "YR1865": null,
-   "VisitTotal": null
- },
- {
-   "Location": "",
-   "Lat": null,
-   "Long": null,
-   "CTRY": "",
-   "YR1852": null,
-   "YR1854": null,
-   "YR1855": null,
-   "YR1856": null,
-   "YR1857": null,
-   "YR1858": null,
-   "YR1859": null,
-   "YR1860": null,
-   "YR1861": null,
-   "YR1862": null,
-   "YR1863": null,
-   "YR1864": null,
-   "YR1865": null,
-   "VisitTotal": null
- },
- {
-   "Location": "",
-   "Lat": null,
-   "Long": null,
-   "CTRY": "",
-   "YR1852": null,
-   "YR1854": null,
-   "YR1855": null,
-   "YR1856": null,
-   "YR1857": null,
-   "YR1858": null,
-   "YR1859": null,
-   "YR1860": null,
-   "YR1861": null,
-   "YR1862": null,
-   "YR1863": null,
-   "YR1864": null,
-   "YR1865": null,
-   "VisitTotal": null
- },
- {
-   "Location": "",
-   "Lat": null,
-   "Long": null,
-   "CTRY": "",
-   "YR1852": null,
-   "YR1854": null,
-   "YR1855": null,
-   "YR1856": null,
-   "YR1857": null,
-   "YR1858": null,
-   "YR1859": null,
-   "YR1860": null,
-   "YR1861": null,
-   "YR1862": null,
-   "YR1863": null,
-   "YR1864": null,
-   "YR1865": null,
-   "VisitTotal": null
- },
- {
-   "Location": "",
-   "Lat": null,
-   "Long": null,
-   "CTRY": "",
-   "YR1852": null,
-   "YR1854": null,
-   "YR1855": null,
-   "YR1856": null,
-   "YR1857": null,
-   "YR1858": null,
-   "YR1859": null,
-   "YR1860": null,
-   "YR1861": null,
-   "YR1862": null,
-   "YR1863": null,
-   "YR1864": null,
-   "YR1865": null,
-   "VisitTotal": null
- },
- {
-   "Location": "",
-   "Lat": null,
-   "Long": null,
-   "CTRY": "",
-   "YR1852": null,
-   "YR1854": null,
-   "YR1855": null,
-   "YR1856": null,
-   "YR1857": null,
-   "YR1858": null,
-   "YR1859": null,
-   "YR1860": null,
-   "YR1861": null,
-   "YR1862": null,
-   "YR1863": null,
-   "YR1864": null,
-   "YR1865": null,
-   "VisitTotal": null
- },
- {
-   "Location": "",
-   "Lat": null,
-   "Long": null,
-   "CTRY": "",
-   "YR1852": null,
-   "YR1854": null,
-   "YR1855": null,
-   "YR1856": null,
-   "YR1857": null,
-   "YR1858": null,
-   "YR1859": null,
-   "YR1860": null,
-   "YR1861": null,
-   "YR1862": null,
-   "YR1863": null,
-   "YR1864": null,
-   "YR1865": null,
-   "VisitTotal": null
- },
- {
-   "Location": "",
-   "Lat": null,
-   "Long": null,
-   "CTRY": "",
-   "YR1852": null,
-   "YR1854": null,
-   "YR1855": null,
-   "YR1856": null,
-   "YR1857": null,
-   "YR1858": null,
-   "YR1859": null,
-   "YR1860": null,
-   "YR1861": null,
-   "YR1862": null,
-   "YR1863": null,
-   "YR1864": null,
-   "YR1865": null,
-   "VisitTotal": null
- },
- {
-   "Location": "",
-   "Lat": null,
-   "Long": null,
-   "CTRY": "",
-   "YR1852": null,
-   "YR1854": null,
-   "YR1855": null,
-   "YR1856": null,
-   "YR1857": null,
-   "YR1858": null,
-   "YR1859": null,
-   "YR1860": null,
-   "YR1861": null,
-   "YR1862": null,
-   "YR1863": null,
-   "YR1864": null,
-   "YR1865": null,
-   "VisitTotal": null
- },
- {
-   "Location": "",
-   "Lat": null,
-   "Long": null,
-   "CTRY": "",
-   "YR1852": null,
-   "YR1854": null,
-   "YR1855": null,
-   "YR1856": null,
-   "YR1857": null,
-   "YR1858": null,
-   "YR1859": null,
-   "YR1860": null,
-   "YR1861": null,
-   "YR1862": null,
-   "YR1863": null,
-   "YR1864": null,
-   "YR1865": null,
-   "VisitTotal": null
- },
- {
-   "Location": "",
-   "Lat": null,
-   "Long": null,
-   "CTRY": "",
-   "YR1852": null,
-   "YR1854": null,
-   "YR1855": null,
-   "YR1856": null,
-   "YR1857": null,
-   "YR1858": null,
-   "YR1859": null,
-   "YR1860": null,
-   "YR1861": null,
-   "YR1862": null,
-   "YR1863": null,
-   "YR1864": null,
-   "YR1865": null,
-   "VisitTotal": null
  }
 ];

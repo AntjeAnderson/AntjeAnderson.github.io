@@ -1,4 +1,4 @@
-Var Jameson_Italy_Cities = [
+var Jameson_Italy_Cities = [
  {
    "Location": "Arona",
    "Lat": 8.55818,
@@ -15,7 +15,7 @@ Var Jameson_Italy_Cities = [
    "YR1857-58": 0,
    "YR1859": 0,
    "VisitTotal": 1,
-   "Notes": ""
+   "Notes": "Visted in 1821-22 only."
  },
  {
    "Location": "Bergamo ",
@@ -33,7 +33,7 @@ Var Jameson_Italy_Cities = [
    "YR1857-58": 0,
    "YR1859": 0,
    "VisitTotal": 1,
-   "Notes": ""
+   "Notes": "Visited in 1845 only."
  },
  {
    "Location": "Bologna",
@@ -51,7 +51,7 @@ Var Jameson_Italy_Cities = [
    "YR1857-58": 0,
    "YR1859": 0,
    "VisitTotal": 2,
-   "Notes": ""
+   "Notes": "Visited in 1821-22 and 1846-47."
  },
  {
    "Location": "Brescia",
@@ -69,7 +69,7 @@ Var Jameson_Italy_Cities = [
    "YR1857-58": 0,
    "YR1859": 0,
    "VisitTotal": 1,
-   "Notes": ""
+   "Notes": "Visited in 1845 only."
  },
  {
    "Location": "Cremona",
@@ -87,7 +87,7 @@ Var Jameson_Italy_Cities = [
    "YR1857-58": 0,
    "YR1859": 0,
    "VisitTotal": 1,
-   "Notes": ""
+   "Notes": "Visited in 1845 only."
  },
  {
    "Location": "Domo d'Ossola",
@@ -105,7 +105,7 @@ Var Jameson_Italy_Cities = [
    "YR1857-58": 0,
    "YR1859": 0,
    "VisitTotal": 1,
-   "Notes": ""
+   "Notes": "Visited in 1821-22 only."
  },
  {
    "Location": "Ferrara",
@@ -123,7 +123,7 @@ Var Jameson_Italy_Cities = [
    "YR1857-58": 0,
    "YR1859": 0,
    "VisitTotal": 1,
-   "Notes": ""
+   "Notes": "Visited in 1821-22 only."
  },
  {
    "Location": "Florence",
@@ -141,7 +141,7 @@ Var Jameson_Italy_Cities = [
    "YR1857-58": 1,
    "YR1859": 1,
    "VisitTotal": 4,
-   "Notes": ""
+   "Notes": "Visited in 1821-22, 1846-47, 1857-58, and 1859."
  },
  {
    "Location": "Genoa",
@@ -159,7 +159,7 @@ Var Jameson_Italy_Cities = [
    "YR1857-58": 0,
    "YR1859": 0,
    "VisitTotal": 1,
-   "Notes": ""
+   "Notes": "Visited in 1821-22 only."
  },
  {
    "Location": "Lago di Garda ",
@@ -177,7 +177,7 @@ Var Jameson_Italy_Cities = [
    "YR1857-58": 0,
    "YR1859": 0,
    "VisitTotal": 1,
-   "Notes": ""
+   "Notes": "Visited in 1846-47 only."
  },
  {
    "Location": "Livorno/Leghorn",
@@ -195,7 +195,7 @@ Var Jameson_Italy_Cities = [
    "YR1857-58": 0,
    "YR1859": 0,
    "VisitTotal": 1,
-   "Notes": ""
+   "Notes": "Visited in 1821-22 only."
  },
  {
    "Location": "Mantua",
@@ -213,7 +213,7 @@ Var Jameson_Italy_Cities = [
    "YR1857-58": 0,
    "YR1859": 0,
    "VisitTotal": 1,
-   "Notes": ""
+   "Notes": "Visited in 1845 only."
  },
  {
    "Location": "Meran",
@@ -231,7 +231,7 @@ Var Jameson_Italy_Cities = [
    "YR1857-58": 0,
    "YR1859": 0,
    "VisitTotal": 1,
-   "Notes": ""
+   "Notes": "Visited in 1846-47 only."
  },
  {
    "Location": "Milan",
@@ -249,7 +249,7 @@ Var Jameson_Italy_Cities = [
    "YR1857-58": 0,
    "YR1859": 0,
    "VisitTotal": 3,
-   "Notes": ""
+   "Notes": "Visited in 1821-22, 1845, and 1855."
  },
  {
    "Location": "Monte Tarpeia",
@@ -267,7 +267,7 @@ Var Jameson_Italy_Cities = [
    "YR1857-58": 1,
    "YR1859": 0,
    "VisitTotal": 1,
-   "Notes": ""
+   "Notes": "Visited in 1857-58 only. This location is now just a street address within the boundaries of Rome."
  },
  {
    "Location": "Naples ",
@@ -285,7 +285,7 @@ Var Jameson_Italy_Cities = [
    "YR1857-58": 1,
    "YR1859": 0,
    "VisitTotal": 2,
-   "Notes": ""
+   "Notes": "Visited in 1821-22 and 1857-58. Included visit to Pompeii and Mount Vesuvius in 1821-22."
  },
  {
    "Location": "Padua",
@@ -303,7 +303,7 @@ Var Jameson_Italy_Cities = [
    "YR1857-58": 0,
    "YR1859": 0,
    "VisitTotal": 3,
-   "Notes": ""
+   "Notes": "Visited in 1821-22, 1845, and 1846-47."
  },
  {
    "Location": "Pavia ",
@@ -321,7 +321,7 @@ Var Jameson_Italy_Cities = [
    "YR1857-58": 0,
    "YR1859": 0,
    "VisitTotal": 1,
-   "Notes": ""
+   "Notes": "Visited in 1845 only."
  },
  {
    "Location": "Perugia",
@@ -339,7 +339,7 @@ Var Jameson_Italy_Cities = [
    "YR1857-58": 0,
    "YR1859": 0,
    "VisitTotal": 1,
-   "Notes": ""
+   "Notes": "Visited in 1846-47 only."
  },
  {
    "Location": "Pisa",
@@ -357,7 +357,7 @@ Var Jameson_Italy_Cities = [
    "YR1857-58": 0,
    "YR1859": 0,
    "VisitTotal": 1,
-   "Notes": ""
+   "Notes": "Visited in 1846-47 only."
  },
  {
    "Location": "Ravenna",
@@ -375,7 +375,7 @@ Var Jameson_Italy_Cities = [
    "YR1857-58": 0,
    "YR1859": 0,
    "VisitTotal": 1,
-   "Notes": ""
+   "Notes": "Visited in 1846-47 only."
  },
  {
    "Location": "Rome ",
@@ -393,7 +393,7 @@ Var Jameson_Italy_Cities = [
    "YR1857-58": 1,
    "YR1859": 1,
    "VisitTotal": 5,
-   "Notes": ""
+   "Notes": "Visited in 1821-22, 1846-47, 1855, 1857-1858, and 1859. Jameson's niece Gerardine and her husband lived in Rome in the 1850s."
  },
  {
    "Location": "Siena",
@@ -411,7 +411,7 @@ Var Jameson_Italy_Cities = [
    "YR1857-58": 0,
    "YR1859": 0,
    "VisitTotal": 1,
-   "Notes": ""
+   "Notes": "Visited in 1820-21 only."
  },
  {
    "Location": "Trieste ",
@@ -429,7 +429,7 @@ Var Jameson_Italy_Cities = [
    "YR1857-58": 0,
    "YR1859": 0,
    "VisitTotal": 1,
-   "Notes": ""
+   "Notes": "Visited in 1845 only."
  },
  {
    "Location": "Turin",
@@ -447,7 +447,7 @@ Var Jameson_Italy_Cities = [
    "YR1857-58": 0,
    "YR1859": 0,
    "VisitTotal": 1,
-   "Notes": ""
+   "Notes": "Visited in 1855 only."
  },
  {
    "Location": "Venice",
@@ -465,7 +465,7 @@ Var Jameson_Italy_Cities = [
    "YR1857-58": 0,
    "YR1859": 0,
    "VisitTotal": 3,
-   "Notes": ""
+   "Notes": "Visited in 1821-22, 1845, and 1846-57."
  },
  {
    "Location": "Verona",
@@ -483,7 +483,7 @@ Var Jameson_Italy_Cities = [
    "YR1857-58": 0,
    "YR1859": 0,
    "VisitTotal": 2,
-   "Notes": ""
+   "Notes": "Visited in 1845 and 1846-47."
  },
  {
    "Location": "Vicenza ",
@@ -501,6 +501,6 @@ Var Jameson_Italy_Cities = [
    "YR1857-58": 0,
    "YR1859": 0,
    "VisitTotal": 1,
-   "Notes": ""
+   "Notes": "Visited in 1846-47 only."
  },
 ],

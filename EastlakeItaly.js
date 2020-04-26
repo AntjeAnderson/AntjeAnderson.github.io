@@ -1133,5 +1133,4 @@ var Eastlake_Italy_Cities = [
    "VisitTotal": 2,
    "Notes":"1864, 1865."
  },
- }
 ];

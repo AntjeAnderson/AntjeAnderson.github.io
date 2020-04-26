@@ -215,7 +215,7 @@ var Eliot_Cities1860 = {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 8.72553,45.63006 ]
+       "coordinates":  [ 9.19,45.4642 ]
     },
     "properties": {
     "stop_no":16,

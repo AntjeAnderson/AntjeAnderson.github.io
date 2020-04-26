@@ -138,7 +138,7 @@ var Eliot_Cities1861 = {
     "name":"Florence ",
     "year":1861,
     "date":"1861-05-04",
-    "Description":"The main destination during this trip, with a focus on library research and going to museums to prepare for writing <it>Romola</it>. In her journal, Eliot wondered: \"thirty-four days of precious time spent there: will it all be in vain?\"(<it>Journals </it> 89)"
+    "Description":"Florence was the main destination during this trip, with a focus on library research at the Magliabecchian library and museum visits to prepare for writing <it>Romola</it>. In her journal, Eliot wondered: \"thirty-four days of precious time spent there: will it all be in vain?\"(<it>Journals </it> 89)"
     }
   },
   {
@@ -163,7 +163,7 @@ var Eliot_Cities1861 = {
     },
     "properties": {
     "stop_no":12,
-    "name":"Camaldoli monastery",
+    "name":"Camaldoli Monastery",
     "year":1861,
     "date":"1861-06-03",
     "Description":"This visit was a part of a 5-day excursion from Florence with Thomas Trollope. Eliot did not have access to the inside of the Monastery. "
@@ -177,7 +177,7 @@ var Eliot_Cities1861 = {
     },
     "properties": {
     "stop_no":13,
-    "name":"La Vernia monastery",
+    "name":"La Vernia Monastery",
     "year":1861,
     "date":"1861-06-05",
     "Description":"This visit was a part of a 5-day excursion from Florence with Thomas Trollope."
@@ -292,7 +292,7 @@ var Eliot_Cities1861 = {
     "name":"Paris",
     "year":1861,
     "date":"[1861-06-13]",
-    "Description":"The overnight in Paris did include a visit to the Louvre and to the theater. "
+    "Description":"The overnight in Paris on the way back did include a visit to the Louvre and to the theater. "
     }
   },
   {

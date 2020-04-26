@@ -131,14 +131,14 @@ var Eliot_Cities1864 = {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 8.72553,45.63006 ]
+       "coordinates":  [ 9.19,45.4642 ]
     },
     "properties": {
     "stop_no":12,
     "name":"Milan",
     "year":1864,
     "date":"1864-06-04",
-    "Description":"Here, Eliot and Lewes reunited with Burton. The Brera galleries were again a major highlight."
+    "Description":"In May, joint visits to the Brera gallery and the Ambrosian manuscript library. In June, Eliot and Lewes reunited with Burton. The Brera galleries were again a major highlight."
     }
   },
   {
@@ -180,7 +180,7 @@ var Eliot_Cities1864 = {
     "name":"Airolo",
     "year":1864,
     "date":"1864-06-12",
-    "Description":"From here, Eliot, Lewes and Burton crossed the Alps at St. Gotthard int Switzerland."
+    "Description":"From here, Eliot, Lewes and Burton crossed the Alps at St. Gotthard into Switzerland."
     }
   },
   {

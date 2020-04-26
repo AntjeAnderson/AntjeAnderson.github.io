@@ -12,7 +12,7 @@ var Eliot_Cities1860 = {
     "name":"London",
     "year":1860,
     "date":"March 1860",
-    "Description":"GE and GHL left London for their Italian trip at the end of March. "
+    "Description":"Eliot and Lewes left London for their Italian trip at the end of March. "
     }
   },
   {
@@ -26,7 +26,7 @@ var Eliot_Cities1860 = {
     "name":"Paris",
     "year":1860,
     "date":"03/24/1860",
-    "Description":"GE and GHL saw the Louvre Notre Dame and Ste. Chapelle."
+    "Description":"Visit to the Louvre Notre Dame and Ste. Chapelle."
     }
   },
   {
@@ -40,7 +40,7 @@ var Eliot_Cities1860 = {
     "name":"Mont Cenis",
     "year":1860,
     "date":"March 1860",
-    "Description":"The trip over Mont Cenis Pass, first by diligence (carriage) and then by sledge into Italy was a common access route for travelers."
+    "Description":"The trip over Mont Cenis Pass, first by diligence (carriage) and then by sledge into Italy, was a common access route for travelers."
     }
   },
   {
@@ -82,7 +82,7 @@ var Eliot_Cities1860 = {
     "name":"Genoa",
     "year":1860,
     "date":"March 1860",
-    "Description":"GE had briefly visited this city in 1849--the only Italian city on her trip with the Brays. "
+    "Description":"Eliot had briefly visited this city in 1849--the only Italian city on her trip with the Brays. "
     }
   },
   {
@@ -208,7 +208,7 @@ var Eliot_Cities1860 = {
     "name":"Venice",
     "year":1860,
     "date":"06/04/1860",
-    "Description":"The week here was their last longer stay in Italy; St. Mark and the paintings of Tintorett were the highlights."
+    "Description":"The week here was their last longer stay in Italy; St. Mark and the paintings of Tintoretto were the highlights."
     }
   },
   {
@@ -313,7 +313,7 @@ var Eliot_Cities1860 = {
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 2.35222,48.85661 ]
+       "coordinates":  [ 2.352,48.856 ]
     },
     "properties": {
     "stop_no":23,

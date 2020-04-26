@@ -8,7 +8,8 @@ var Eliot_Italy_Cities = [
    "YR1864": 0,
    "YR1869": 0,
    "VisitTotal": 1,
-   "CTRY": "Italy"
+   "CTRY": "Italy",
+   "Notes": "Visited in 1860 only."
  },
  {
    "Location": "Bergamo",
@@ -19,7 +20,8 @@ var Eliot_Italy_Cities = [
    "YR1864": 1,
    "YR1869": 0,
    "VisitTotal": 1,
-   "CTRY": "Italy"
+   "CTRY": "Italy",
+   "Notes": "Visted in 1864 only. "
  },
  {
    "Location": "Bologna",
@@ -30,7 +32,8 @@ var Eliot_Italy_Cities = [
    "YR1864": 0,
    "YR1869": 0,
    "VisitTotal": 1,
-   "CTRY": "Italy"
+   "CTRY": "Italy",
+   "Notes": "Visited in 1860 only (passing through in 1869)."
  },
  {
    "Location": "Brenner Pass",
@@ -41,29 +44,8 @@ var Eliot_Italy_Cities = [
    "YR1864": 0,
    "YR1869": 1,
    "VisitTotal": 1,
-   "CTRY": "Italy"
- },
- {
-   "Location": "Calais ",
-   "Latitude": 1.85868,
-   "Longitude": 50.95129,
-   "YR1860": 0,
-   "YR1861": 0,
-   "YR1864": 0,
-   "YR1869": 1,
-   "VisitTotal": 1,
-   "CTRY": "Italy"
- },
- {
-   "Location": "Cannes",
-   "Latitude": 7.01736,
-   "Longitude": 43.55284,
-   "YR1860": 0,
-   "YR1861": 1,
-   "YR1864": 0,
-   "YR1869": 0,
-   "VisitTotal": 1,
-   "CTRY": "Italy"
+   "CTRY": "Italy (Germany) ",
+   "Notes": "Visited in 1869 only."
  },
  {
    "Location": "Chiavenna ",
@@ -74,7 +56,8 @@ var Eliot_Italy_Cities = [
    "YR1864": 0,
    "YR1869": 0,
    "VisitTotal": 1,
-   "CTRY": "Italy"
+   "CTRY": "Italy",
+   "Notes": "Visited in 1869 only."
  },
  {
    "Location": "Ferrara",
@@ -85,7 +68,8 @@ var Eliot_Italy_Cities = [
    "YR1864": 0,
    "YR1869": 0,
    "VisitTotal": 1,
-   "CTRY": "Italy"
+   "CTRY": "Italy",
+   "Notes": "Visited in 1860 only."
  },
  {
    "Location": "Florence (including environs) ",
@@ -96,18 +80,8 @@ var Eliot_Italy_Cities = [
    "YR1864": 0,
    "YR1869": 1,
    "VisitTotal": 3,
-   "CTRY": "Italy"
- },
- {
-   "Location": "Geneva",
-   "Latitude": 6.14315,
-   "Longitude": 46.20439,
-   "YR1860": 1,
-   "YR1861": 0,
-   "YR1864": 0,
-   "YR1869": 0,
-   "VisitTotal": 1,
-   "CTRY": "Italy"
+   "CTRY": "Italy",
+   "Notes": "Visited in 1860, 1861, and 1869. "
  },
  {
    "Location": "Genoa",
@@ -118,7 +92,8 @@ var Eliot_Italy_Cities = [
    "YR1864": 0,
    "YR1869": 1,
    "VisitTotal": 3,
-   "CTRY": "Italy"
+   "CTRY": "Italy",
+   "Notes": "Visited in 1860, 1861, and 1869. "
  },
  {
    "Location": "La Verna (monastery) ",
@@ -129,7 +104,8 @@ var Eliot_Italy_Cities = [
    "YR1864": 0,
    "YR1869": 0,
    "VisitTotal": 1,
-   "CTRY": "Italy"
+   "CTRY": "Italy",
+   "Notes": "Visited in 1869 (excursion from Florence)."
  },
  {
    "Location": "Lago di Garda ",
@@ -140,7 +116,8 @@ var Eliot_Italy_Cities = [
    "YR1864": 1,
    "YR1869": 0,
    "VisitTotal": 1,
-   "CTRY": "Italy"
+   "CTRY": "Italy",
+   "Notes": "Visited in 1864 only."
  },
  {
    "Location": "Lago Maggiore",
@@ -151,7 +128,8 @@ var Eliot_Italy_Cities = [
    "YR1864": 0,
    "YR1869": 0,
    "VisitTotal": 1,
-   "CTRY": "Italy"
+   "CTRY": "Italy",
+   "Notes": "Visited in 1861 only."
  },
  {
    "Location": "Lake Como",
@@ -162,7 +140,8 @@ var Eliot_Italy_Cities = [
    "YR1864": 1,
    "YR1869": 0,
    "VisitTotal": 2,
-   "CTRY": "Italy"
+   "CTRY": "Italy",
+   "Notes": "Visited in 1864 only."
  },
  {
    "Location": "Leghorn/Livorno",
@@ -173,7 +152,8 @@ var Eliot_Italy_Cities = [
    "YR1864": 0,
    "YR1869": 0,
    "VisitTotal": 2,
-   "CTRY": "Italy"
+   "CTRY": "Italy",
+   "Notes": "Visited in 1860 and 1861."
  },
  {
    "Location": "Milan",
@@ -184,10 +164,11 @@ var Eliot_Italy_Cities = [
    "YR1864": 1,
    "YR1869": 0,
    "VisitTotal": 2,
-   "CTRY": "Italy"
+   "CTRY": "Italy",
+   "Notes": "Visited in 1860 and 1864."
  },
  {
-   "Location": "Mont Cenis",
+   "Location": "Mont Cenis Pass",
    "Latitude": 6.90086,
    "Longitude": 45.25962,
    "YR1860": 1,
@@ -195,7 +176,8 @@ var Eliot_Italy_Cities = [
    "YR1864": 1,
    "YR1869": 0,
    "VisitTotal": 2,
-   "CTRY": "Italy"
+   "CTRY": "Italy (France) ",
+   "Notes": "Crossed from France in 1860 and 1864. "
  },
  {
    "Location": "Naples ",
@@ -206,7 +188,8 @@ var Eliot_Italy_Cities = [
    "YR1864": 0,
    "YR1869": 1,
    "VisitTotal": 2,
-   "CTRY": "Italy"
+   "CTRY": "Italy",
+   "Notes": "Visited in 1860 and 1869."
  },
  {
    "Location": "Padua",
@@ -217,7 +200,8 @@ var Eliot_Italy_Cities = [
    "YR1864": 1,
    "YR1869": 0,
    "VisitTotal": 2,
-   "CTRY": "Italy"
+   "CTRY": "Italy",
+   "Notes": "Visited in 1860 and 1864."
  },
  {
    "Location": "Perugia",
@@ -228,7 +212,8 @@ var Eliot_Italy_Cities = [
    "YR1864": 0,
    "YR1869": 1,
    "VisitTotal": 1,
-   "CTRY": "Italy"
+   "CTRY": "Italy",
+   "Notes": "Visited in 1869 only."
  },
  {
    "Location": "Pisa",
@@ -239,7 +224,8 @@ var Eliot_Italy_Cities = [
    "YR1864": 0,
    "YR1869": 1,
    "VisitTotal": 3,
-   "CTRY": "Italy"
+   "CTRY": "Italy",
+   "Notes": "Visited in 1860, 1861, and 1869. "
  },
  {
    "Location": "Pistoia",
@@ -250,7 +236,8 @@ var Eliot_Italy_Cities = [
    "YR1864": 0,
    "YR1869": 0,
    "VisitTotal": 1,
-   "CTRY": "Italy"
+   "CTRY": "Italy",
+   "Notes": "Visited in 1861 only."
  },
  {
    "Location": "Ravenna",
@@ -261,7 +248,8 @@ var Eliot_Italy_Cities = [
    "YR1864": 0,
    "YR1869": 1,
    "VisitTotal": 1,
-   "CTRY": "Italy"
+   "CTRY": "Italy",
+   "Notes": "Visited in 1869 only."
  },
  {
    "Location": "Rome",
@@ -272,7 +260,8 @@ var Eliot_Italy_Cities = [
    "YR1864": 0,
    "YR1869": 1,
    "VisitTotal": 2,
-   "CTRY": "Italy"
+   "CTRY": "Italy",
+   "Notes": "Visited in 1860 and 1869."
  },
  {
    "Location": "Suza",
@@ -283,7 +272,8 @@ var Eliot_Italy_Cities = [
    "YR1864": 1,
    "YR1869": 0,
    "VisitTotal": 2,
-   "CTRY": "Italy"
+   "CTRY": "Italy",
+   "Notes": "Visited in 1860 and 1864."
  },
  {
    "Location": "Turin",
@@ -294,7 +284,8 @@ var Eliot_Italy_Cities = [
    "YR1864": 1,
    "YR1869": 0,
    "VisitTotal": 2,
-   "CTRY": "Italy"
+   "CTRY": "Italy",
+   "Notes": "Visited in 1860 and 1864."
  },
  {
    "Location": "Venice",
@@ -305,7 +296,8 @@ var Eliot_Italy_Cities = [
    "YR1864": 0,
    "YR1869": 1,
    "VisitTotal": 2,
-   "CTRY": "Italy"
+   "CTRY": "Italy",
+   "Notes": "Visited in 1860 and 1869."
  },
  {
    "Location": "Verona",
@@ -316,6 +308,31 @@ var Eliot_Italy_Cities = [
    "YR1864": 1,
    "YR1869": 1,
    "VisitTotal": 2,
-   "CTRY": "Italy"
+   "CTRY": "Italy",
+   "Notes": "Visited in 1864 and 1869."
+ },
+ {
+   "Location": "Brescia",
+   "Latitude": 10.2118,
+   "Longitude": 45.54155,
+   "YR1860": 0,
+   "YR1861": 0,
+   "YR1864": 1,
+   "YR1869": 0,
+   "VisitTotal": 1,
+   "CTRY": "Italy ",
+   "Notes": "Visited in 1864 only."
+ },
+ {
+   "Location": "Camaldoli (monastery)",
+   "Latitude": 11.82037,
+   "Longitude": 43.79449,
+   "YR1860": 0,
+   "YR1861": 1,
+   "YR1864": 0,
+   "YR1869": 0,
+   "VisitTotal": 1,
+   "CTRY": "Italy ",
+   "Notes": "Visited in 1869 (excursion from Florence)."
  }
 ];

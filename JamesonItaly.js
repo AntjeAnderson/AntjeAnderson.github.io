@@ -503,4 +503,4 @@ var Jameson_Italy_Cities = [
    "VisitTotal": 1,
    "Notes": "Visited in 1846-47 only."
  },
-],
+];

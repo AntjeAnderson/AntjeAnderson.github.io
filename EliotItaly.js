@@ -334,5 +334,5 @@ var Eliot_Italy_Cities = [
    "VisitTotal": 1,
    "CTRY": "Italy ",
    "Notes": "Visited in 1869 (excursion from Florence)."
- }
+ },
 ];

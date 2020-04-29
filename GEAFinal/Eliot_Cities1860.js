@@ -152,7 +152,8 @@ var Eliot_Cities1860 = {
     "name":"Florence",
     "year":1860,
     "date":"05/17/1860",
-    "Description":"<p>Eliot and Lewes spent about two weeks in mid-May exploring the art and history of Florence, staying at the Pension Suisse in the Via Tornabuoni, with excursions to Fiesole, Siena, and other sites. On May 21, Eliot decided to write a historical novel set in Renaissance Florence in the 1490s--the novel that became <em>Romola</em> in 1863.</p><p><a href=\"http://georgeeliotartworld.com/files/original/a5dc6f4f55f0486b72bccda95e1926d8.jpg\" target=\"_blank\"><img alt=\"\" src=\"http://georgeeliotartworld.com/files/original/a5dc6f4f55f0486b72bccda95e1926d8.jpg\" style=\"width: 100%; height: 100%;\" /></a></p><p><strong>Zoom in on Florence for further information on some of the most important sites that Eliot visited and commented on in her &quot;Recollections of Italy. 1860.&quot;</p>"
+    "Description":"<p>Eliot and Lewes spent about two weeks in mid-May exploring the art and history of Florence, staying at the Pension Suisse in the Via Tornabuoni, with excursions to Fiesole, Siena, and other sites. On May 21, Eliot decided to write a historical novel set in Renaissance Florence in the 1490s--the novel that became <em>Romola</em> in 1863.</p><p><a href=\"http://georgeeliotartworld.com/files/original/a5dc6f4f55f0486b72bccda95e1926d8.jpg\" target=\"_blank\"><img alt=\"\" src=\"http://georgeeliotartworld.com/files/original/a5dc6f4f55f0486b72bccda95e1926d8.jpg\" style=\"width: 100%; height: 100%;\" /></a></p>"
+  //Taken out for now until Florence details have been added: <p><strong>Zoom in on Florence for further information on some of the most important sites that Eliot visited and commented on in her &quot;Recollections of Italy. 1860.&quot;</p>
     }
   },
   {

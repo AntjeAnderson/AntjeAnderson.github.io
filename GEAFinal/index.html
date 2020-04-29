@@ -59,11 +59,7 @@
 	minZoom: 0,
 	maxZoom: 20,
 	ext: 'png'	
-});
-	var Wikimedia = L.tileLayer('https://maps.wikimedia.org/osm-intl/{z}/{x}/{y}{r}.png', {
-	attribution: '<a href="https://wikimediafoundation.org/wiki/Maps_Terms_of_Use">Wikimedia</a>',
-	minZoom: 1,
-	maxZoom: 19
+		
 }).addTo(map);
 
 // The canvas / imagery maps are from the Leaflet site that has public domain maps, https://leaflet-extras.github.io/leaflet-providers/preview/
@@ -273,8 +269,7 @@ var trip1861 = L.geoJson(Eliot_Trip1861, {
 
 	var basemaps = {
 	     "Basic World Map": canvas,
-	     "Satellite Imagery": imagery,
-	     "Wikimedia": Wikimedia	
+	     "Satellite Imagery": imagery	
 };
 
 	var overlaymaps = {

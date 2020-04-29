@@ -58,7 +58,12 @@
 	subdomains: 'abcd',
 	minZoom: 0,
 	maxZoom: 20,
-	ext: 'png'
+	ext: 'png'	
+});
+	var Wikimedia = L.tileLayer('https://maps.wikimedia.org/osm-intl/{z}/{x}/{y}{r}.png', {
+	attribution: '<a href="https://wikimediafoundation.org/wiki/Maps_Terms_of_Use">Wikimedia</a>',
+	minZoom: 1,
+	maxZoom: 19
 }).addTo(map);
 
 // The canvas / imagery maps are from the Leaflet site that has public domain maps, https://leaflet-extras.github.io/leaflet-providers/preview/
@@ -268,19 +273,20 @@ var trip1861 = L.geoJson(Eliot_Trip1861, {
 
 	var basemaps = {
 	     "Basic World Map": canvas,
-	     "Satellite Imagery": imagery	
+	     "Satellite Imagery": imagery.
+	     "Wikimedia": Wikimedia	
 };
 
 	var overlaymaps = {
-"Itinerary 1860": trip1860,
+
 "Cities Visited 1860": tripcities1860,
-"Itinerary 1861": trip1861,
+"Itinerary 1860": trip1860,
 "Cities Visited 1861": tripcities1861,
-"Itinerary 1864": trip1864,   
+"Itinerary 1861": trip1861,
 "Cities Visited 1864": tripcities1864,
-"Itinerary 1869": trip1869,
-"Cities Visited 1869": tripcities1869
-   
+"Itinerary 1864": trip1864, 
+"Cities Visited 1869": tripcities1869,
+"Itinerary 1869": trip1869
 };
 
 L.control.layers(basemaps, overlaymaps, {collapsed:false}).addTo(map);

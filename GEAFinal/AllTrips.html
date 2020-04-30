@@ -58,7 +58,7 @@
 var onEachFeatureJameson = function(feature, layer) {
           if (feature.properties) {
                 var prop = feature.properties;
-                var popup = '<h3>'+prop['Location']+'</h3><strong>Total Visits: </strong>'+ prop['VisitTotal']+'<br>'+prop['Notes'];
+                var popup = '<h3>'+prop['Location']+'</h3><strong>Jameson, Total Visits: </strong>'+ prop['VisitTotal']+'<br>'+prop['Notes'];
                 feature.layer = layer;
                 layer.bindPopup(popup, {maxWidth: "300"});
           }
@@ -67,7 +67,7 @@ var onEachFeatureJameson = function(feature, layer) {
 var onEachFeatureEastlake = function(feature, layer) {
               if (feature.properties) {
                   var prop = feature.properties;
-                  var popup = '<h3>'+prop['Location']+'</h3><strong>Total Visits: </strong>'+ prop['VisitTotal']+'<br>'+'Visited in '+prop['Notes'];
+                  var popup = '<h3>'+prop['Location']+'</h3><strong>Eastlake, Total Visits: </strong>'+ prop['VisitTotal']+'<br>'+'Visited in '+prop['Notes'];
                   feature.layer = layer;
                   layer.bindPopup(popup, {maxWidth: "300"});
               }
@@ -76,7 +76,7 @@ var onEachFeatureEastlake = function(feature, layer) {
 var onEachFeatureEliot = function(feature, layer) {
               if (feature.properties) {
                   var prop = feature.properties;
-                  var popup = '<h3>'+prop['Location']+'</h3><strong>Total Visits: </strong>'+ prop['VisitTotal']+'<br>'+prop['Notes'];
+                  var popup = '<h3>'+prop['Location']+'</h3><strong>Eliot, Total Visits: </strong>'+ prop['VisitTotal']+'<br>'+prop['Notes'];
                   feature.layer = layer;
                   layer.bindPopup(popup, {maxWidth: "300"});
               }

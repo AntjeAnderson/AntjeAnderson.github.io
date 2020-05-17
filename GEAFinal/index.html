@@ -113,9 +113,12 @@
     var onEachFeature1861 = function(feature, layer) {
       if (feature.properties) {
         var prop = feature.properties;
-        feature.properties.on('click', function(e) {
-          $('#mymodal').modal('show');
-        });
+        var popup = '<h4>In 1864, Eliot and Lewes traveled to Italy again, this time with the painter Frederic Burton, for only about 6 weeks (May 4-Jun 20).They stayed entirely in Northern Italy, with an emphasis on Milan and Venice. Eliot&#39;s brief journal for this trip was published for the first time in <em>The Journals of George Eliot</em> by Margaret Harris and Judith Johnston (see pp. 373-379).<p><i>Click on the individual cities for more information.</it></p></h4>';
+                feature.layer = layer;
+                layer.bindPopup(popup, {maxWidth: "300"});
+ // I assume this portion, , is your code, but it producdes an error. I am commenting it out and putting the former code back in.       
+        // feature.properties.on('click', function(e) {
+        //  $('#mymodal').modal('show');});
       }
     };
 

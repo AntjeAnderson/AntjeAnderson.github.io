@@ -142,7 +142,7 @@ var Eliot_All_Cities = {
     "VisitTotal":1,
     "CTRY":"France",
     "Years":"Visited in 1861 only.",
-    "Info":"On their trips to Italy, they only returned via the Eastern route across the Brenner Pass and Munich once, in 1869. "
+    "Info":""
     }
   },
   {

@@ -22,18 +22,18 @@
 
         <script src="https://AntjeAnderson.github.io/GEAFinal/Eliot_Trip1869.js"></script>
 
-        <script src="https://AntjeAnderson.github.io/GEAFinal/EliotItaly.js"></script>
+        <script src="https://AntjeAnderson.github.io/GEAFinal/EliotAllTravel.js"></script>
 
 
 </head>
 
        <body>
-              <h2><p style="color:red">George Eliot's Trips to Italy, 1860-1869</p><h2><h5>Zoom in for more detail! In the legend, toggle trips on and off to see one or several trips. Click on the itinerary or the cities for more information. If Eliot visited a city multiple times, select the year for which you want the information.</h5>
+              <h2><p style="color:red">George Eliot's Trips to Italy, 1860-1869</p><h2><h5>Zoom in for more detail! In the legend, toggle trips on and off to see one or several trips. Click on the itinerary or the individual cities for more information.</h5>
 
        <div id="map"></div>
        <div id="feature_infos">
-         <div id="info">
-           <p>"Click on the dots to see information each city Eliot visited;
+         <div id="Eliot_All_Cities">
+           <p>"Click on the dots to see information on each city Eliot visited;
              Click on the itinerary lines to get more information on the trip."</p>
         </div>
       </div>
@@ -42,20 +42,18 @@
 
                var map = L.map('map', {
                    center: [43.76956, 11.25581],
-                   zoom: 5
+                   zoom: 6
                });
 
-var canvas = L.tileLayer('https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.png', {
-	maxZoom: 20,
-	attribution: '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a>, &copy; <a href="https://openmaptiles.org/">OpenMapTiles</a> &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors'
+var canvas = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+	attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
+	subdomains: 'abcd',
+	maxZoom: 19
 });
 
-var imagery = L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/toner-lite/{z}/{x}/{y}{r}.{ext}', {
-	attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-	subdomains: 'abcd',
-	minZoom: 0,
-	maxZoom: 20,
-	ext: 'png'
+var imagery = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+	maxZoom: 19,
+	attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
 }).addTo(map);
 
 
@@ -65,14 +63,13 @@ var onEachFeature1860 = function(feature, layer) {
         // make a cool little html popup that can include properties from the .js file
           var popup = '<h4><p><strong>George Eliot&#39;s 1860 trip to Italy</strong> was the first extended visit there, a little more than 3 months, from March 24 to July 1. It was also&nbsp;Eliot&#39;s first extensive exploration of Italian art, which she recorded in her &quot;Recollections of Italy, 1860&quot;. See Chapter 10 of John Cross, <em>Life of George Eliot</em> at <a href="https://georgeeliotarchive.org/files/original/51db8460a5c3f7c96ac66c9cdf972b5d.pdf" target="_blank"> Vol.2 of <em>Life</em> the Cabinet Edition</a>, pp. 140-167.&nbsp;</p><p><i>Click on the individual cities for more information.</it></p></h4>';
           // add known info about event to the description
-    //you can have a field called description in your json attributes - it will pull it in here on any layer you have an oneachfeature
-
+    //alternatively, you can have a field called description in your json attributes - it will pull it in here on any layer you have an oneachfeature
         // you must create a layer property on each feature or else
         // the search results won't know where the item is on the map / layer
         feature.layer = layer;
         layer.bindPopup(popup, {maxWidth: "300"});
       }
-    }; // end onEachFeature
+    }; // end onEachFeature 1860
 
 var onEachFeature1861 = function(feature, layer) {
         if (feature.properties) {
@@ -105,11 +102,17 @@ var onEachFeature1869 = function(feature, layer) {
 var onEachFeatureEliot = function(feature, layer) {
               if (feature.properties) {
                   var prop = feature.properties;
-                  var popup = '<h3>'+prop['Location']+'</h3><strong>Total Visits: </strong>'+ prop['VisitTotal']+'<br>'+prop['Notes'];
+                  var popup = '<h3>'+prop['Location']+'</h3><strong>Total Visits: </strong>'+ prop['VisitTotal']+'<br>'+prop['Years']+'<br>'+prop['Info'];
                   feature.layer = layer;
                   layer.bindPopup(popup, {maxWidth: "300"});
               }
           };
+
+              // the alternative seems to involve the following.
+              // feature.layer = layer;
+              // layer.on('click', function(e) {
+              // document.getElementbyID("info").innerHTML =
+              // but I cannot figure out the syntax.
 
           var trip1860style = {
             "color": '#e41a1c',
@@ -137,11 +140,11 @@ var onEachFeatureEliot = function(feature, layer) {
 
           var EliotCircleMarkers = {
         		radius: 10,
-        		fillColor: "#4daf4a",
-        		color: "#4daf4a",
+        		fillColor: "#033742",
+        		color: "#033742",
         		weight: 1,
         		opacity: 0.8,
-        		fillOpacity: 0.4,
+        		fillOpacity: 0.3,
 	        };
 
 var trip1860 = L.geoJson(Eliot_Trip1860, {
@@ -168,7 +171,7 @@ var trip1869 = L.geoJson(Eliot_Trip1869, {
             })
             .addTo(map);
 
-var EliotCities = L.geoJson(Eliot_Italy_Cities, {
+var EliotCities = L.geoJson(Eliot_All_Cities, {
     onEachFeature: onEachFeatureEliot,
     pointToLayer: function(feature, latlng) {
     return L.circleMarker(latlng, EliotCircleMarkers);
@@ -176,8 +179,9 @@ var EliotCities = L.geoJson(Eliot_Italy_Cities, {
 
 
 var basemaps = {
-     "Basic World Map": canvas,
-     "Satellite Imagery": imagery
+      "Basemap 1": imagery,
+      "Basemap 2": canvas
+
 };
 
 var overlaymaps = {

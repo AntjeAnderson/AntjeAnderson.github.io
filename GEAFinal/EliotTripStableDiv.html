@@ -25,30 +25,33 @@
 </head>
 
 
-<body style="font-family:'Crimson Text'">
+<body>
+  <!-- Commenting out the banner
   <h2 style="text-align:center">George Eliot's Trips to Italy, 1860-1869</h2>
   <p style="text-align:center">In the legend, toggle trips on and off to see one or several trips. Click on the itinerary or the individual cities for more information.</p>
-
+--> 
   <div id="map" style="font-family:'Crimson Text'; height: 100%">
     <div id="info" class="leaflet-bottom leaflet-left" style="position:sticky;padding:5px 5px 15px 5px;width:35%;background-color:white;border-radius:10px;margin:100px 30px 30px 10px;text-align:center;border-style:solid;border-color:#7F7F7F">
-      <p>Click on the circles to see information on each city Eliot visited; click on the itinerary lines to get more information on each trip.</p>
+      <p><strong>George Eliot's Trips to Italy, 1860-1869</strong><br>Click on the circles to see information on each city Eliot visited; click on the itinerary lines to get more information on each trip.</p>
     </div>
   </div>
 
   <script type="text/javascript">
     var map = L.map('map', {
-      center: [43.76956, 11.25581],
+      center: [45.77, 3.0870],
       zoom: 6
     });
 
     var canvas = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
       attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
       subdomains: 'abcd',
-      maxZoom: 19
+      maxZoom: 19,
+      minZoom: 5
     });
 
     var imagery = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
       maxZoom: 19,
+      minZoom: 5,
       attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
     }).addTo(map);
 
@@ -178,15 +181,15 @@
     }).addTo(map);
 
     var basemaps = {
-      "Basemap 1": imagery,
-      "Basemap 2": canvas
+      "Colorful": imagery,
+      "Monochrome": canvas
     };
 
     var overlaymaps = {
-      "Itinerary 1860": trip1860,
-      "Itinerary 1861": trip1861,
-      "Itinerary 1864": trip1864,
-      "Itinerary 1869": trip1869,
+      "Itinerary 1860 (red)": trip1860,
+      "Itinerary 1861 (blue)": trip1861,
+      "Itinerary 1864 (green)": trip1864,
+      "Itinerary 1869 (purple)": trip1869,
       "All Cities Visited": EliotCities
     };
 

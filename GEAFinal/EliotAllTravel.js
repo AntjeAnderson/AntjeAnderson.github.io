@@ -52,7 +52,7 @@ var Eliot_All_Cities = {
     "VisitTotal":1,
     "CTRY":"France",
     "Years":"Visited in 1869 only. ",
-    "Info":"This was the last French stop on the way into Italy along the Cote d'Azure, which Eliot and Lewes only used in 1869. "
+    "Info":"This was the last French stop on the way into Italy along the Cote d'Azure, the route Eliot and Lewes used in 1861 and 1869. "
     }
   },
   {
@@ -304,7 +304,7 @@ var Eliot_All_Cities = {
     "VisitTotal":3,
     "CTRY":"Italy",
     "Years":"Visited in 1860, 1861, and 1869. ",
-    "Info":"Eliot had briefly visited Genoa in 1849--the only Italian city on her trip with the Brays. They spent 11 days there in 1860, and visited many of the churches and other sights, as well as the synagogue. Although \"enchanged\" by the city according to Eliot's \"Recollections of Italy, 1860,\" Lewes notes in his diary in 1869 that Genoa was \"not interesting on a 3rd visit.\" "
+    "Info":"Eliot had briefly visited Genoa in 1849--the only Italian city on her trip with the Brays. They spent 11 days there in 1860, and visited many of the churches and other sights, as well as the synagogue. Although \"enchanted\" by the city according to Eliot's \"Recollections of Italy, 1860,\" Lewes notes in his diary in 1869 that Genoa was \"not interesting on a 3rd visit.\" Nonetheless, it became an important setting in <it>Daniel Deronda,</it> Eliot's last novel."
     }
   },
   {

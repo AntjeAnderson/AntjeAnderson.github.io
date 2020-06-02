@@ -286,7 +286,7 @@ var Eliot_All_Cities = {
     "VisitTotal":3,
     "CTRY":"Italy",
     "Years":"Visited in 1860, 1861, and 1869. ",
-    "Info":"In 1860, Eliot spent about 2 weeks in Florence, seeing the sights and conceiving the idea to write <it>Romola</it> on May 21. This trip is described in detail in the 'Recollections of Italy, 1860.' In 1861, it was Eliot and Lewes' main destination, with a focus on library research and going to museums in preparation to write <it>Romola</it>. In her journal, Eliot wondered: \"thirty-four days of precious time spent there: will it all be in vain?\" (<it>Journals </it> 89). In 1869, they stayed twice, for 5 days each, with their friends, the Trollopes. For the first 5-day stay in Florence, Eliot was ill and barely left the Trollopes' Villa Ricorboli. For their second 5-day stay, they revisited many museums, and Eliot went to the new Museo di San Marco on April 24 and 26, seeing the frescoes by Fra Angelico that had been off limits to her as a woman in 1860 and 1861. </p><p><a href=\"http://georgeeliotartworld.com/files/original/a5dc6f4f55f0486b72bccda95e1926d8.jpg\" target=\"_blank\"><img alt=\"\" src=\"http://georgeeliotartworld.com/files/original/a5dc6f4f55f0486b72bccda95e1926d8.jpg\" style=\"width: 100%; height: 100%;\" /></a></p>"
+    "Info":"In 1860, Eliot spent about 2 weeks in Florence, seeing the sights and conceiving the idea to write <it>Romola</it> on May 21. This trip is described in detail in the 'Recollections of Italy, 1860.' In 1861, it was Eliot and Lewes' main destination, with a focus on library research and going to museums in preparation to write <em>Romola</em>. In her journal, Eliot wondered: \"thirty-four days of precious time spent there: will it all be in vain?\" (<em>Journals </em> 89). In 1869, they stayed twice, for 5 days each, with their friends, the Trollopes. For the first 5-day stay in Florence, Eliot was ill and barely left the Trollopes' Villa Ricorboli. For their second 5-day stay, they revisited many museums, and Eliot went to the new Museo di San Marco on April 24 and 26, seeing the frescoes by Fra Angelico that had been off limits to her as a woman in 1860 and 1861. </p><p><a href=\"http://georgeeliotartworld.com/files/original/a5dc6f4f55f0486b72bccda95e1926d8.jpg\" target=\"_blank\"><img alt=\"\" src=\"http://georgeeliotartworld.com/files/original/a5dc6f4f55f0486b72bccda95e1926d8.jpg\" style=\"width: 100%; height: 100%;\" /></a></p>"
     }
   },
   {
@@ -304,7 +304,7 @@ var Eliot_All_Cities = {
     "VisitTotal":3,
     "CTRY":"Italy",
     "Years":"Visited in 1860, 1861, and 1869. ",
-    "Info":"Eliot had briefly visited Genoa in 1849--the only Italian city on her trip with the Brays. They spent 11 days there in 1860, and visited many of the churches and other sights, as well as the synagogue. Although \"enchanted\" by the city according to Eliot's \"Recollections of Italy, 1860,\" Lewes notes in his diary in 1869 that Genoa was \"not interesting on a 3rd visit.\" Nonetheless, it became an important setting in <it>Daniel Deronda,</it> Eliot's last novel."
+    "Info":"Eliot had briefly visited Genoa in 1849--the only Italian city on her trip with the Brays. They spent 11 days there in 1860, and visited many of the churches and other sights, as well as the synagogue. Although \"enchanted\" by the city according to Eliot's \"Recollections of Italy, 1860,\" Lewes notes in his diary in 1869 that Genoa was \"not interesting on a 3rd visit.\" Nonetheless, it became an important setting in <em>Daniel Deronda,</em> Eliot's last novel."
     }
   },
   {

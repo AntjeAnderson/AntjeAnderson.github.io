@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Eliot in Italy</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css" crossorigin="" />
+  <style type="text/css">
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+    },
+    #map {
+      min-height: 90%;
+    }
+  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js" crossorigin=""></script>
+  <script src="https://AntjeAnderson.github.io/GEAFinal/Eliot_Trip1860.js"></script>
+  <script src="https://AntjeAnderson.github.io/GEAFinal/Eliot_Trip1861.js"></script>
+  <script src="https://AntjeAnderson.github.io/GEAFinal/Eliot_Trip1864.js"></script>
+  <script src="https://AntjeAnderson.github.io/GEAFinal/Eliot_Trip1869.js"></script>
+  <script src="https://AntjeAnderson.github.io/GEAFinal/EliotAllTravel.js"></script>
+</head>
+
+
+<body>
+  <!-- Commenting out the banner
+  <h2 style="text-align:center">George Eliot's Trips to Italy, 1860-1869</h2>
+  <p style="text-align:center">In the legend, toggle trips on and off to see one or several trips. Click on the itinerary or the individual cities for more information.</p>
+-->
+  <div id="map" style="font-size: 16px; font-family:'Crimson Text'; height: 100%">
+    <div id="info" class="leaflet-bottom leaflet-left" style="position:sticky;padding:5px 5px 15px 5px;width:35%;background-color:white;border-radius:10px;margin:100px 30px 30px 10px;text-align:center;border-style:solid;border-color:#7F7F7F">
+      <p><h3>George Eliot's Trips to Italy, 1860-1869</h3><br>Click on the circles to see information on each city Eliot visited; click on the itinerary lines to get more information on each trip.</p>
+    </div>
+  </div>
+
+  <script type="text/javascript">
+    var map = L.map('map', {
+      center: [45.77, 3.0870],
+      zoom: 6
+    });
+
+    var canvas = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
+      subdomains: 'abcd',
+      maxZoom: 19,
+      minZoom: 5
+    });
+
+    var imagery = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      maxZoom: 19,
+      minZoom: 5,
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(map);
+
+    var onEachFeature1860 = function(feature, layer) {
+      if (feature.properties) {
+        var prop = feature.properties;
+        // make a cool little html popup that can include properties from the .js file
+        var popup =
+          '<h4><p>George Eliot&#39;s 1860 trip to Italy was the first extended visit there, a little more than 3 months, from March 24 to July 1. It was also&nbsp;Eliot&#39;s first extensive exploration of Italian art, which she recorded in her &quot;Recollections of Italy, 1860&quot;. See Chapter 10 of John Cross, <em>Life of George Eliot</em> at <a href="https://georgeeliotarchive.org/files/original/51db8460a5c3f7c96ac66c9cdf972b5d.pdf" target="_blank"> Vol.2  of <em>Life</em> the Cabinet Edition</a>, pp. 140-167.&nbsp;</p><p><i>Click on the individual cities on this itinerary for more information.</it></p></h4>';
+        // add known info about event to the description
+        //alternatively, you can have a field called description in your json attributes - it will pull it in here on any layer you have an oneachfeature
+        // you must create a layer property on each feature or else
+        // the search results won't know where the item is on the map / layer
+        feature.layer = layer;
+        layer.bindPopup(popup, {
+          maxWidth: "300"
+        });
+      }
+    }; // end onEachFeature 1860
+
+    var onEachFeature1861 = function(feature, layer) {
+      if (feature.properties) {
+        var prop = feature.properties;
+        var popup =
+          '<h4><p><strong><p>Eliot&#39;s 1861 trip to Italy (mid-April through mid-June) focused on Florence; it was a research trip for what was to become her novel <em>Romola</em>. She and Lewes stayed for over a month, with only brief stops in Genoa and Pisa and a few excursions from Florence.</p><p><i>Click on the individual cities on this itinerary for more information.</it></p></h4>';
+        feature.layer = layer;
+        layer.bindPopup(popup, {
+          maxWidth: "300"
+        });
+      }
+    };
+
+    var onEachFeature1864 = function(feature, layer) {
+      if (feature.properties) {
+        var prop = feature.properties;
+        var popup =
+          '<h4>In 1864, Eliot and Lewes traveled to Italy again, this time with the painter Frederic Burton, for only about 6 weeks (May 4-Jun 20).They stayed entirely in Northern Italy, with an emphasis on Milan and Venice. Eliot&#39;s brief journal for this trip was published for the first time in <em>The Journals of George Eliot</em> by Margaret Harris and Judith Johnston (see pp. 373-379).<p><i>Click on the individual cities on this itinerary for more information.</it></p></h4>';
+        feature.layer = layer;
+        layer.bindPopup(popup, {
+          maxWidth: "300"
+        });
+      }
+    };
+
+    var onEachFeature1869 = function(feature, layer) {
+      if (feature.properties) {
+        var prop = feature.properties;
+        var popup =
+          '<h4>From early March to early May of 1869, Eliot and Lewes took what was to be their last extended trip to Italy together, although they traveled to France, Switzerland and Germany throughout the 1870s. They re-visited many sites from previous trips, including Florence and Rome, where they met John Cross for the first time on April 17, 1869. The only new location they explored was Ravenna. The 1869 journal of George Henry Lewes (available <a href="https://www-jstor-org.libproxy.unl.edu/stable/10.5325/georelioghlstud.67.2.0093" target="_blank">here</a> at J-Stor provides additional information.<p><i>Click on the individual cities on this itinerary for more information.</it></p></h4>';
+        feature.layer = layer;
+        layer.bindPopup(popup, {
+          maxWidth: "300"
+        });
+      }
+    };
+
+    // all cities visited in one layer:
+    var onEachFeatureEliot = function(feature, layer) {
+      if (feature.properties) {
+        var prop = feature.properties;
+        //   var popup = '<h3>'+prop['Location']+'</h3><strong>Total Visits: </strong>'+ prop['VisitTotal']+'<br>'+prop['Years']+'<br>'+prop['Info'];
+        feature.layer = layer;
+        layer.on('click', function(e) {
+          document.getElementById("info").innerHTML = '<h3>' + prop['Location'] + '</h3><strong>Total Visits: </strong>' + prop['VisitTotal'] + '.' + prop['Years'] + '<br><br>' + prop['Info'];
+        })
+      }
+    };
+
+    var trip1860style = {
+      "color": '#e41a1c',
+      "weight": 4,
+      "opacity": 0.8
+    };
+
+    var trip1861style = {
+      "color": '#377eb8',
+      "weight": 4,
+      "opacity": 0.8
+    };
+
+    var trip1864style = {
+      "color": '#4daf4a',
+      "weight": 4,
+      "opacity": 0.8
+    };
+
+    var trip1869style = {
+      "color": '#984ea3',
+      "weight": 4,
+      "opacity": 0.8
+    };
+
+    var EliotCircleMarkers = {
+      radius: 10,
+      fillColor: "#033742",
+      color: "#033742",
+      weight: 1,
+      opacity: 0.8,
+      fillOpacity: 0.3,
+    };
+
+    var trip1860 = L.geoJson(Eliot_Trip1860, {
+      onEachFeature: onEachFeature1860,
+      style: trip1860style
+    }).addTo(map);
+
+    var trip1861 = L.geoJson(Eliot_Trip1861, {
+      onEachFeature: onEachFeature1861,
+      style: trip1861style
+    }).addTo(map);
+
+    var trip1864 = L.geoJson(Eliot_Trip1864, {
+      onEachFeature: onEachFeature1864,
+      style: trip1864style
+    }).addTo(map);
+
+    var trip1869 = L.geoJson(Eliot_Trip1869, {
+      onEachFeature: onEachFeature1869,
+      style: trip1869style
+    }).addTo(map);
+
+    var EliotCities = L.geoJson(Eliot_All_Cities, {
+      onEachFeature: onEachFeatureEliot,
+      pointToLayer: function(feature, latlng) {
+        return L.circleMarker(latlng, EliotCircleMarkers);
+      }
+    }).addTo(map);
+
+L.polygon ([
+    [ 43.7779433, 11.2594059 ],
+    [ 43.7789155, 11.2601515 ],
+    [ 43.7792718, 11.25932  ],
+    [ 43.7782919, 11.2585744 ]
+  ]).addTo(map).bindPopup('<p>In 1860, Eliot and Lewes visited the <strong>Monastery of San Marco</strong> in Florence for the first time to see the famous frescoes by Fra Angelico on its walls. Eliot commented specifically on the <em>Crucifixion</em> in the Chapter House in her <a href="https://georgeeliotarchive.org/items/show/222">&quot;Recollections of Italy&quot; see p. 186 in Cross&#39;&nbsp;<em>Life</em>, Vol.2</a>. But in 1860 and 1861, she could not see the many frescoes on the upper floor, because women were not permitted beyond the public areas of the monastery. Nonetheless, with the help of notes taken by Lewes, it became a key location in her novel <em>Romola</em>, set in the 1490s. Romola barely notices the work with "a crucified form rising high and pale on the frescoed wall, and pale faces of sorrow looking out from it below." When she returned in 1869, the monastery had become a public museum, which Eliot visited on April 24 and 26, 1869.</p><p>Fra Angelico&#39;s <em>Crucifixion</em>, San Marco Chapter House<a href="http://georgeeliotartworld.com/files/original/934adab98fcf4b7575b5220037eab64f.jpg" target="_blank"><img alt="An Image of Fra Angelico&#39;s Crucifixion in the Chapter House of San Marco" src="http://georgeeliotartworld.com/files/original/934adab98fcf4b7575b5220037eab64f.jpg" style="width: 100%; height: 100%;" /></a></p>'
+);
+
+L.polygon ([
+  [ 43.7658362, 11.2509764 ],
+  [ 43.7645655, 11.2481547 ],
+  [ 43.7638953, 11.2487019 ],
+  [ 43.765135, 11.2515182 ]
+]).addTo(map).bindPopup('<p><strong>The Palazzo Pitti </strong>on the south bank of the Arno, had been the residence of the Medici for over two centuriesand showcased their collections, even before it became a public gallery of the dukes of Lorraine-Hapsburg in 1828. Eliot thought that when it came to its paintings, it surpassed the Uffizi galleries, although she also noted that Raphael&#39;s <em>Madonna della Sedia,</em>, &quot;leaves me, with all its beauty, impressed only by the grave gaze of the Infant&quot; (&quot;Recollections,&quot; p.188-189). Like many other tourists, she also enjoyed the walks in the Palazzo Pitti&#39;s Boboli gardens.</p><p>Raphael&#39;s <em>Madonna della Sedia</em> (1513-1514)</p><p><a href="http://georgeeliotartworld.com/files/original/a14c173598eceb0d5648cbe18f3c23f6.jpeg" target="_blank"><img alt="" src="http://georgeeliotartworld.com/files/original/a14c173598eceb0d5648cbe18f3c23f6.jpeg" style="width: 100%; height: 100%;" /></a></p>'
+);
+
+L.polygon ([
+  [ 43.7697942, 11.2508031 ],
+  [ 43.7697594, 11.2506341 ],
+  [ 43.7697129 , 11.2507441]
+]).addTo(map).bindPopup('<p>This is the location in the Via Tornabuoni where the Pension Suisse was located. Eliot and Lewes had rooms here in 1860 for their first (two-week) visit to Florence, probably because it was one of the recommended by their Murray&#39;s <em>Handbook for Travelers</em>.'
+);
+
+L.polygon ([
+  [ 43.7666336 , 11.2548241 ],
+  [ 43.7660758 , 11.255854 ],
+  [ 43.765208, 11.2569698 ],
+  [ 43.7647509, 11.2579569 ]
+]).addTo(map).bindPopup('<p>Eliot&#39;s novel <em><strong>Romola</strong></em> was published in 1863. Eliot and Lewes first discussed the idea of a novel set in the Florence of the 1490s, the time of Savonarola, in May of 1860. But it took Eliot over 2 years to research and write the novel, which was serialized in monthly installments between July 1862 and August 1863 in the <em>Cornhill Magazine</em>, and published by Smith and Elder in July of 1863 in 3 volumes.</p><p> The novel is set in 15th-century Florence, and Eliot imagined Romola and her impoverished father to live along the Via dei Bardi, in the run-down family home of their aristocratic ancestors, described in detail in Chapter 5 of the novel.</p><p>The Cabinet Edition of the novel is available <a href="https://georgeeliotarchive.org/items/show/8" target="_blank">here </a>at the George Eliot Archive.</p>'
+);
+
+L.polygon([
+  [ 43.7641491 , 11.2710291 ],
+  [ 43.7638546 , 11.2707287 ],
+  [ 43.7628938, 11.2722308 ],
+  [ 43.7620725,  11.2726814 ],
+  [ 43.762181, 11.2742156 ],
+  [ 43.7640561, 11.2740976 ]
+]).addTo(map).bindPopup('<p>In 1869, Eliot and Lewes stayed in Ricorboli right outside the city walls of Florence, where their friends, Thomas Adolphus Trollope and his second wife, Frances Eleanor nee Ternan (the sister of Dickens&#39; mistress Ellen Ternan), had a villa. They stayed twice for five days each, from March 20-25, and then again, after their trip to Naples and Rome, from April 23-27.</p>'
+);
+
+L.polygon([
+  [ 43.7734749, 11.2545271 ],
+  [ 43.7728474, 11.2544627 ],
+  [ 43.7725994, 11.2572093 ],
+  [ 43.773103, 11.2577994  ],
+  [ 43.7736608, 11.2571986 ]
+]).addTo(map).bindPopup('<p>The Piazza del Duomo in Florence, with the famous Cathedral and the Baptistery, was one of the main tourist attractions in Florence. Eliot and Lewis visited both sites multiple times, and both the duomo and the plaza became important sites in <em>Romola</em>. In "Recollection of Italy," Eliot noted the (then) "wretched" unfinished facade of the Duomo, Giotto&#39;s Campanile and the Baptistery&#39;s famous "Gates of Paradise" by Ghiberti, and notes especially the Italo-Byzantine mosaics in the cupola of the baptistery. <p><a href="http://georgeeliotartworld.com/files/original/32cd8292142f3250bdee813e96ddd93a.jpg" target="_blank"><img alt="Christ Pantocrator, Italo-Byzantine Mosaic from the Baptistery in Florence" src="http://georgeeliotartworld.com/files/original/32cd8292142f3250bdee813e96ddd93a.jpg" style="width: 100%; height: 100%;" /></a></p></p>'
+);
+
+L.polygon([
+
+  
+])
+    var basemaps = {
+      "Colorful": imagery,
+      "Monochrome": canvas
+    };
+
+    var overlaymaps = {
+      "<span style='color:red'>Itinerary 1860</span>": trip1860,
+      "<span style='color:blue'>Itinerary 1861</span>": trip1861,
+      "<span style='color:green'>Itinerary 1864</span>": trip1864,
+      "<span style='color:purple'>Itinerary 1869</span>": trip1869,
+      "All Cities Visited": EliotCities
+    };
+
+    L.control.layers(basemaps, overlaymaps, {
+      collapsed: false
+    }).addTo(map);
+  </script>
+
+</body>
+
+</html>

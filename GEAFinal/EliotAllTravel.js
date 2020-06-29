@@ -213,7 +213,7 @@ var Eliot_All_Cities = {
     "YR1869":"0",
     "VisitTotal":1,
     "CTRY":"Italy",
-    "Years":"Visted in 1864 only. ",
+    "Years":"Visited in 1864 only. ",
     "Info":""
     }
   },
@@ -484,7 +484,7 @@ var Eliot_All_Cities = {
     "YR1869":"1",
     "VisitTotal":3,
     "CTRY":"Italy",
-    "Years":"Visited in 1860, 1861, and 1869. ",
+    "Years":"Visited in 1860, 1861, and 1869.",
     "Info":"In 1860, the Cathedral, Baptistry, the Leaning Tower, and the Campo Santo were the highlights, but in 1869, they revisited these sights."
     }
   },
@@ -538,8 +538,8 @@ var Eliot_All_Cities = {
     "YR1869":"1",
     "VisitTotal":2,
     "CTRY":"Italy",
-    "Years":"<h3>Please zoom in on Rome in order to see information on specific sites in the city that are important to Eliot's life and work.</h3>Visited in 1860 and 1869. In 1860, they stayed for almost a month (over Easter) and spent a lot of time seeing the sights, including St. Peter, the Vatican museums, and Roman antiquities; in April of 1869, they revisited familiar places, including the Vatican Museums. They also first met John Cross (Eliot's later husband) on April 18, 1869 while in Rome. <a href=\"https://georgeeliotarchive.org/files/original/dc3b33f8a1a967a4bccad88cdae00609.jpeg\" target=\"_blank\"><img alt=\"The Coliseum, Rome\" src=\"https://georgeeliotarchive.org/files/original/dc3b33f8a1a967a4bccad88cdae00609.jpeg\" style=\"width: 100%; height: 100%;\" /></a></p>",
-    "Info":""
+    "Years":"Visited in 1860 and 1869.",
+    "Info":"<h3>Please zoom in on Rome in order to see information on specific sites in the city that are important to Eliot's life and work.</h3>In 1860, they stayed for almost a month (over Easter) and spent a lot of time seeing the sights, including St. Peter, the Vatican museums, and Roman antiquities; in April of 1869, they revisited familiar places, including the Vatican Museums.</br> They also first met John Cross (Eliot's later husband) on April 18, 1869 while in Rome. <a href=\"https://georgeeliotarchive.org/files/original/dc3b33f8a1a967a4bccad88cdae00609.jpeg\" target=\"_blank\"><img alt=\"The Coliseum, Rome\" src=\"https://georgeeliotarchive.org/files/original/dc3b33f8a1a967a4bccad88cdae00609.jpeg\" style=\"width: 100%; height: 100%;\" /></a></p>"
     }
   },
   {
@@ -808,7 +808,7 @@ var Eliot_All_Cities = {
     "YR1869":"1",
     "VisitTotal":4,
     "CTRY":"England ",
-    "Years":"1860, 1861, 1864, and 1869. ",
+    "Years":"1860, 1861, 1864, and 1869.",
     "Info":"Lewes' and Eliot's residences in London were their starting point and end point for all trips. After returning in 1864, Eliot writes to a friend: Eliot writes to a friend: \"You can imagine that London does not look pretty after such a journey\" (<it>Letters</it> 4:154)."
     }
   }

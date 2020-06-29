@@ -31,8 +31,8 @@
   <p style="text-align:center">In the legend, toggle trips on and off to see one or several trips. Click on the itinerary or the individual cities for more information.</p>
 -->
   <div id="map" style="font-size: 16px; font-family:'Crimson Text'; height: 100%">
-    <div id="info" class="leaflet-bottom leaflet-left" style="position:sticky;padding:5px 5px 15px 5px;width:25%;background-color:white;border-radius:10px;margin:100px 30px 30px 10px;text-align:center;border-style:solid;border-color:#7F7F7F">
-      <h3>George Eliot's Trips to Italy, 1860-1869</h3>Click on the circles to see information on each city Eliot visited; click on the itinerary lines to get more information on each trip.
+    <div id="info" class="leaflet-bottom leaflet-left" style="position:sticky;padding:5px 5px 15px 5px;width:20%;background-color:white;border-radius:10px;margin:100px 30px 30px 10px;text-align:center;border-style:solid;border-color:#7F7F7F">
+      <p><h3>George Eliot's Trips to Italy, 1860-1869</h3>Click on the circles to see information on each city Eliot visited; click on the itinerary lines to get more information on each trip.</p>
     </div>
   </div>
 
@@ -196,19 +196,19 @@ L.polygon ([
 ]).addTo(map).bindPopup('<p><strong>The Palazzo Pitti </strong>on the south bank of the Arno, had been the residence of the Medici for over two centuriesand showcased their collections, even before it became a public gallery of the dukes of Lorraine-Hapsburg in 1828. Eliot thought that when it came to its paintings, it surpassed the Uffizi galleries, although she also noted that Raphael&#39;s <em>Madonna della Sedia,</em>, &quot;leaves me, with all its beauty, impressed only by the grave gaze of the Infant&quot; (&quot;Recollections,&quot; p.188-189). Like many other tourists, she also enjoyed the walks in the Palazzo Pitti&#39;s Boboli gardens.</p><p>Raphael&#39;s <em>Madonna della Sedia</em> (1513-1514)</p><p><a href="http://georgeeliotartworld.com/files/original/a14c173598eceb0d5648cbe18f3c23f6.jpeg" target="_blank"><img alt="" src="http://georgeeliotartworld.com/files/original/a14c173598eceb0d5648cbe18f3c23f6.jpeg" style="width: 100%; height: 100%;" /></a></p>'
 );
 
-L.polygon ([
-  [ 43.7697942, 11.2508031 ],
-  [ 43.7697594, 11.2506341 ],
-  [ 43.7697129 , 11.2507441]
-]).addTo(map).bindPopup('<p>This is the location in the Via Tornabuoni where the Pension Suisse was located. Eliot and Lewes had rooms here in 1860 for their first (two-week) visit to Florence, probably because it was one of the recommended by their Murray&#39;s <em>Handbook for Travelers</em>.'
+L.polyline ([
+  [ 43.76943, 11.25058 ],
+  [ 43.77026 , 11.25129 ],
+  [ 43.7715, 11.25134 ]
+]).addTo(map).bindPopup('<p>Here, in the Via de Tornabuoni, near the Ponte Santa Trinita, Eliot and Lewes took rooms at the Pension Suisse in 1860 during their first (two-week) visit to Florence, probably because it was one of the recommended by their Murray&#39;s <em>Handbook for Travelers</em>.'
 );
 
-L.polygon ([
-  [ 43.7666336 , 11.2548241 ],
-  [ 43.7660758 , 11.255854 ],
-  [ 43.765208, 11.2569698 ],
-  [ 43.7647509, 11.2579569 ]
-]).addTo(map).bindPopup('<p>Eliot&#39;s novel <em><strong>Romola</strong></em> was published in 1863. Eliot and Lewes first discussed the idea of a novel set in the Florence of the 1490s, the time of Savonarola, in May of 1860. But it took Eliot over 2 years to research and write the novel, which was serialized in monthly installments between July 1862 and August 1863 in the <em>Cornhill Magazine</em>, and published by Smith and Elder in July of 1863 in 3 volumes.</p><p> The novel is set in 15th-century Florence, and Eliot imagined Romola and her impoverished father to live along the Via dei Bardi, in the run-down family home of their aristocratic ancestors, described in detail in Chapter 5 of the novel.</p><p>The Cabinet Edition of the novel is available <a href="https://georgeeliotarchive.org/items/show/8" target="_blank">here </a>at the George Eliot Archive.</p>'
+L.polyline ([
+[ 43.7666336 , 11.2548241 ],
+[ 43.7660758 , 11.255854 ],
+[ 43.765208, 11.2569698 ],
+[ 43.7647509, 11.2579569 ]
+]).addTo(map).bindPopup('<p>Eliot&#39;s novel <em><strong>Romola</strong></em> was published in 1863. Eliot and Lewes first discussed the idea of a novel set in the Florence of the 1490s, the time of Savonarola, in May of 1860. But it took Eliot over 2 years to research and write the novel, which was serialized in monthly installments between July 1862 and August 1863 in the <em>Cornhill Magazine</em>, and published by Smith and Elder in July of 1863 in 3 volumes.</p><p> The novel is set in 15th-century Florence, and Eliot imagined Romola and her impoverished father to live along the Via dei Bardi, in the run-down family home of their aristocratic ancestors, described in detail in Chapter 5.</p><p>The Cabinet Edition of the novel is available <a href="https://georgeeliotarchive.org/items/show/8" target="_blank">here </a>at the George Eliot Archive.</p>'
 );
 
 L.polygon([
@@ -227,13 +227,26 @@ L.polygon([
   [ 43.7725994, 11.2572093 ],
   [ 43.773103, 11.2577994  ],
   [ 43.7736608, 11.2571986 ]
-]).addTo(map).bindPopup('<p>The Piazza del Duomo in Florence, with the famous Cathedral and the Baptistery, was one of the main tourist attractions in Florence. Eliot and Lewis visited both sites multiple times, and both the duomo and the plaza became important sites in <em>Romola</em>. In "Recollection of Italy," Eliot noted the (then) "wretched" unfinished facade of the Duomo, Giotto&#39;s Campanile and the Baptistery&#39;s famous "Gates of Paradise" by Ghiberti, and notes especially the Italo-Byzantine mosaics in the cupola of the baptistery. <p><a href="http://georgeeliotartworld.com/files/original/32cd8292142f3250bdee813e96ddd93a.jpg" target="_blank"><img alt="Christ Pantocrator, Italo-Byzantine Mosaic from the Baptistery in Florence" src="http://georgeeliotartworld.com/files/original/32cd8292142f3250bdee813e96ddd93a.jpg" style="width: 100%; height: 100%;" /></a></p></p>'
+]).addTo(map).bindPopup('<p>The Piazza del Duomo in Florence, with the famous Cathedral and the Baptistery, was one of the main tourist attractions in Florence. Eliot and Lewis visited both sites multiple times, and both the duomo and the plaza became important sites in <em>Romola</em>. In "Recollection of Italy," Eliot noted the (then) "wretched" unfinished facade of the Duomo, Giotto&#39;s Campanile and the Baptistery&#39;s famous "Gates of Paradise" by Ghiberti, and notes especially the Italo-Byzantine mosaics in the cupola of the baptistery. <p><a href="http://georgeeliotartworld.com/files/original/32cd8292142f3250bdee813e96ddd93a.jpg" target="_blank"><img alt="Christ Pantocrator, Italo-Byzantine Mosaic from the Baptistery in Florence" src="http://georgeeliotartworld.com/files/original/32cd8292142f3250bdee813e96ddd93a.jpg" style="width: 100%; height: 100%;" /></a></p>'
 );
 
 L.polygon([
+    [ 41.9075318, 12.4554671],
+    [ 41.9065736, 12.450446 ],
+    [ 41.9017507, 12.4457682 ],
+    [ 41.9003133, 12.4582137 ],
+    [ 41.9055835, 12.4586428 ]
+]).addTo(map).bindPopup('Vatican City and what Eliot called "Christian Rome," specifically St. Peter and the Vatican Museums, were major tourist attractions that Eliot and Lewes visited on both their 1860 and 1869 trips. Of the many ancient and Renaissance art works they saw at the Vatican Museums, the most important one in Eliot&#39;s fiction is <em>The Sleeping Ariadne</em>, a Graeco-Roman sculpture featured in Chapter 19 of <em>Middlemarch</em>, during Dorothea&#39;s visit to the Vatican on her honeymoon in Rome.<p><a href="https://georgeeliotarchive.org/files/original/7f024eb74705c1d2ec57106e6b77fdba.jpeg" target="_blank"><img alt="The Sleeping (or Reclining) Ariadne, Vatican Museum, Rome" src="https://georgeeliotarchive.org/files/original/7f024eb74705c1d2ec57106e6b77fdba.jpeg" style="width: 100%; height: 100%;" /></a></p> '
+);
 
-  
-])
+  L.polygon([
+    [ 41.8905119, 12.4940321 ],
+    [ 41.8969649, 12.4838612 ],
+    [ 41.8921092, 12.480385  ],
+    [ 41.8875088, 12.4899122 ]
+  ]).addTo(map).bindPopup('The antique Roman ruins were as popular in the 19th century as it is today. Eliot wrote about these ruins at length in "Recollections of Italy" and observed that "the scene looking along the Forum to the arch of Titus resembled strongly that mixture of ruined grandeur with modern life which I had always had in my imagination at the mention of Rome."<p><a href="https://georgeeliotarchive.org/files/original/c1b53ec7e81923616e77ecdc2db9cf39.jpeg" target="_blank"><img alt="View of the Roman forum from the Capitoline Hill" src="https://georgeeliotarchive.org/files/original/c1b53ec7e81923616e77ecdc2db9cf39.jpeg" style="width: 100%; height: 100%;" /></a></p>'
+  );
+
     var basemaps = {
       "Colorful": imagery,
       "Monochrome": canvas
